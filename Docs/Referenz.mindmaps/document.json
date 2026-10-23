@@ -1,0 +1,252 @@
+{
+  "createdAt" : "2026-09-25T12:00:00Z",
+  "formatVersion" : 1,
+  "modifiedAt" : "2026-09-25T12:00:00Z",
+  "root" : {
+    "children" : [
+      {
+        "children" : [
+          {
+            "children" : [
+              {
+                "id" : "CEF6C988-49DD-43C9-BE97-60586A5F3407",
+                "text" : "Foto einer Regenwolke"
+              },
+              {
+                "id" : "21CC8EFD-7BFA-49B9-B52A-0033BB89B554",
+                "text" : "Frage an die Klasse"
+              },
+              {
+                "id" : "4D705E64-E713-49BB-AA58-D54EDFFABC93",
+                "text" : "Bezug zum Alltag"
+              }
+            ],
+            "id" : "DF8B0B49-9C18-4A21-89D6-9749C322345A",
+            "text" : "Einstieg"
+          },
+          {
+            "children" : [
+              {
+                "id" : "87117E31-FD35-4A9F-8535-514FF7913886",
+                "text" : "Stationen benennen"
+              },
+              {
+                "id" : "C72205EC-918C-4F35-8059-25568284CB20",
+                "text" : "Zusammenhänge erklären"
+              },
+              {
+                "id" : "FB38BC57-D314-4562-97D2-8F096675B933",
+                "text" : "Bedeutung einschätzen"
+              }
+            ],
+            "id" : "A6231AC8-AA59-430C-8553-C91C4B23CBF1",
+            "text" : "Ziele"
+          },
+          {
+            "children" : [
+              {
+                "id" : "BC868A7C-DB64-4B28-A3C5-FDB7BA1FADAE",
+                "text" : "Stationen"
+              },
+              {
+                "id" : "347AF278-BDCC-4DAD-A163-1C07B06BBDE5",
+                "text" : "Bedeutung"
+              },
+              {
+                "id" : "0EDD557E-0659-43DD-A369-74C05D1769DA",
+                "text" : "Abschluss"
+              }
+            ],
+            "id" : "47DB4067-63B5-4368-96A3-E5641A6A58D3",
+            "text" : "Gliederung"
+          }
+        ],
+        "id" : "716E5F54-2E6A-4998-8D81-A37BAF8D0684",
+        "text" : "Einleitung"
+      },
+      {
+        "children" : [
+          {
+            "children" : [
+              {
+                "id" : "3ABB53C1-3B3F-450C-AE0D-A6EF940F150A",
+                "text" : "Sonne als Antrieb"
+              },
+              {
+                "id" : "1B5F56F3-4F24-458A-BBA1-253C9E724E10",
+                "text" : "Meere und Seen"
+              },
+              {
+                "id" : "0F3BE2D0-20F4-4CA5-A035-BB8132782BB2",
+                "text" : "Pflanzen geben Wasser ab"
+              }
+            ],
+            "id" : "99A897A7-C403-4444-97F4-8533E330E513",
+            "text" : "Verdunstung"
+          },
+          {
+            "children" : [
+              {
+                "id" : "9C05E926-8871-4490-9E01-F6A9C77AE347",
+                "text" : "Luft kühlt ab"
+              },
+              {
+                "id" : "0C5A89E1-6EDC-4F31-A925-D389F30A2723",
+                "text" : "Wolken entstehen"
+              },
+              {
+                "id" : "4580C359-9D64-4241-B288-6920BBA312E1",
+                "text" : "Wind trägt Wolken"
+              }
+            ],
+            "id" : "D7FD9BA7-729C-4C42-B38A-2355788F130C",
+            "text" : "Kondensation"
+          },
+          {
+            "children" : [
+              {
+                "id" : "A826C455-D560-4552-A1CB-27C05A1C5983",
+                "text" : "Regen"
+              },
+              {
+                "id" : "76680253-8412-4A63-AE1E-15EF4E20B769",
+                "text" : "Schnee und Hagel"
+              },
+              {
+                "id" : "AE3259C6-0DBF-4BA9-B583-4109B89EA924",
+                "text" : "Versickern und Abfließen"
+              }
+            ],
+            "id" : "297317E0-FD32-4B46-BC87-654AFE20D1B2",
+            "text" : "Niederschlag"
+          }
+        ],
+        "id" : "AA69681E-C86E-4A5A-8E9F-48054F215538",
+        "text" : "Stationen"
+      },
+      {
+        "children" : [
+          {
+            "children" : [
+              {
+                "id" : "2D4B5DA5-CE96-4BDA-A39C-0B1B369F46F3",
+                "text" : "Wärmetransport"
+              },
+              {
+                "id" : "B9E9E8FA-8448-460D-8AF8-71E0E23B4E21",
+                "text" : "Wetterextreme"
+              },
+              {
+                "id" : "E274D111-6795-4024-A384-F65615E6431E",
+                "text" : "Klimawandel"
+              }
+            ],
+            "id" : "7CA826DD-F22E-4B03-B1AB-BC291EC1F859",
+            "text" : "Klima"
+          },
+          {
+            "children" : [
+              {
+                "id" : "6272B8B2-CC86-4E9E-8C83-DA20F869832F",
+                "text" : "Bewässerung"
+              },
+              {
+                "id" : "A5FFF87B-FEEF-4CE9-AA0E-BBA4EDFBC115",
+                "text" : "Dürreperioden"
+              },
+              {
+                "id" : "9C56A69B-BE8C-4AF0-AC72-95E877A655E3",
+                "text" : "Bodenschutz"
+              }
+            ],
+            "id" : "4B54FB70-F852-4D58-A8B7-6D9EBDDF218B",
+            "text" : "Landwirtschaft"
+          },
+          {
+            "children" : [
+              {
+                "id" : "5DE4C556-CB22-406F-908C-06F818D6C5C5",
+                "text" : "Grundwasser"
+              },
+              {
+                "id" : "EA309112-B5D0-40CA-8144-8EC0B5E75C38",
+                "text" : "Aufbereitung"
+              },
+              {
+                "id" : "452CB745-5A40-455A-A524-EE9FADE401A1",
+                "text" : "Sparsamer Umgang"
+              }
+            ],
+            "id" : "4D446BD5-E72F-46BB-B8F0-A1175E9F2C0E",
+            "text" : "Trinkwasser"
+          }
+        ],
+        "id" : "09428A26-8238-4240-BE88-E47D1737891C",
+        "text" : "Bedeutung"
+      },
+      {
+        "children" : [
+          {
+            "children" : [
+              {
+                "id" : "C5F87520-0C06-4F54-A05F-E45F61A66D18",
+                "text" : "Kreislauf in einem Satz"
+              },
+              {
+                "id" : "4F1C6E6C-30DC-4CF2-B346-2B1C51E6B953",
+                "text" : "Schaubild zeigen"
+              },
+              {
+                "id" : "E4826322-50E7-4759-AF22-F0EE9E502851",
+                "text" : "Kernbegriffe wiederholen"
+              }
+            ],
+            "id" : "470036AC-6284-4EC4-AB02-82A860675EA2",
+            "text" : "Zusammenfassung"
+          },
+          {
+            "children" : [
+              {
+                "id" : "E2A7FD4B-EE0E-42F3-9425-A82B75900AEE",
+                "text" : "Was kann jeder tun?"
+              },
+              {
+                "id" : "00BB6DE1-9E29-411F-8187-7CDB7732FA00",
+                "text" : "Offene Fragen"
+              },
+              {
+                "id" : "E4B1DEB8-A24D-4713-8210-B9E620D33A04",
+                "text" : "Meinungsbild"
+              }
+            ],
+            "id" : "3135BFC6-7AF6-4397-A622-CD13679017BC",
+            "text" : "Diskussion"
+          },
+          {
+            "children" : [
+              {
+                "id" : "D69809CE-1CA1-4F2C-A33C-AEE1C2681912",
+                "text" : "Schulbuch Erdkunde"
+              },
+              {
+                "id" : "F2EE1757-D0A7-4EC1-A7F2-C8A65C004510",
+                "text" : "Deutscher Wetterdienst"
+              },
+              {
+                "id" : "32E8FEC5-0F8B-4F9B-8745-E4D72BD98819",
+                "text" : "Umweltbundesamt"
+              }
+            ],
+            "id" : "FAB7E065-EF1C-422F-BCEE-83E8C15D331D",
+            "text" : "Quellen"
+          }
+        ],
+        "id" : "40F05A7B-D010-4F1B-9F6D-127D47DD26C8",
+        "text" : "Abschluss"
+      }
+    ],
+    "id" : "838B1D71-BA18-47CB-BD72-C012842987DC",
+    "text" : "Referat: Der Wasserkreislauf"
+  },
+  "themeID" : "blau"
+}

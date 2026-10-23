@@ -1,0 +1,8 @@
+/* MindMaps – Info.plist auf Englisch (M12). */
+
+"Markdown-Text" = "Markdown Text";
+"MindMaps-Dokument" = "MindMaps Document";
+"NSRemindersFullAccessUsageDescription" = "MindMaps syncs the tasks of a mind map with a list in Reminders – you can then check them off in both apps.";
+"NSRemindersUsageDescription" = "MindMaps syncs the tasks of a mind map with a list in Reminders – you can then check them off in both apps.";
+"OPML-Gliederung" = "OPML Outline";
+"TextBundle" = "TextBundle";

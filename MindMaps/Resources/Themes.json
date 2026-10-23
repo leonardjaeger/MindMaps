@@ -1,0 +1,213 @@
+{
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "blau",
+      "name": "MindMaps Blau",
+      "description": "Standard-Thema im Blau des App-Icons, ruhig und klar.",
+      "branchStyle": "curved",
+      "branchWidth": "tapered",
+      "nodeShape": "rounded",
+      "nodeFill": "none",
+      "font": "system",
+      "light": {
+        "canvas": "#F6F8FB",
+        "rootFill": "#0866E3",
+        "rootText": "#FFFFFF",
+        "nodeFill": "#FFFFFF",
+        "nodeText": "#1B2330",
+        "branches": ["#0866E3", "#0E8C9B", "#6A4BD8", "#C2410C", "#1F8A4C", "#B4236B"]
+      },
+      "dark": {
+        "canvas": "#12161D",
+        "rootFill": "#1F6FE5",
+        "rootText": "#FFFFFF",
+        "nodeFill": "#1B212B",
+        "nodeText": "#E8EDF5",
+        "branches": ["#5CA1FF", "#3CC7D6", "#A58BFF", "#FF8A4C", "#4FD18B", "#FF6FAE"]
+      }
+    },
+    {
+      "id": "schwarzwald",
+      "name": "Schwarzwald",
+      "description": "Waldgrün, Moos und Harz – erdig und entspannt.",
+      "branchStyle": "curved",
+      "branchWidth": "uniform",
+      "nodeShape": "rounded",
+      "nodeFill": "none",
+      "font": "rounded",
+      "light": {
+        "canvas": "#F3F5EF",
+        "rootFill": "#23452F",
+        "rootText": "#F3F5EF",
+        "nodeFill": "#FFFFFF",
+        "nodeText": "#1E2A21",
+        "branches": ["#2F6B3F", "#6B7F1F", "#9A5B12", "#3D6E6A", "#7A4E2D", "#556B2F"]
+      },
+      "dark": {
+        "canvas": "#141A15",
+        "rootFill": "#3A6E48",
+        "rootText": "#F3F5EF",
+        "nodeFill": "#1C241E",
+        "nodeText": "#E4EBE2",
+        "branches": ["#6FBF83", "#B5C94A", "#E0A04A", "#6FB8B0", "#C9936A", "#9DB86A"]
+      }
+    },
+    {
+      "id": "sonnenuntergang",
+      "name": "Sonnenuntergang",
+      "description": "Warme Orange-, Korall- und Magentatöne.",
+      "branchStyle": "curved",
+      "branchWidth": "tapered",
+      "nodeShape": "pill",
+      "nodeFill": "none",
+      "font": "system",
+      "light": {
+        "canvas": "#FFF8F2",
+        "rootFill": "#C2410C",
+        "rootText": "#FFFFFF",
+        "nodeFill": "#FFFFFF",
+        "nodeText": "#2B1A14",
+        "branches": ["#C2410C", "#BE185D", "#B45309", "#9D174D", "#DC2626", "#7C3AED"]
+      },
+      "dark": {
+        "canvas": "#1C1414",
+        "rootFill": "#F97316",
+        "rootText": "#1C1414",
+        "nodeFill": "#261B1A",
+        "nodeText": "#F8EAE4",
+        "branches": ["#FB923C", "#F472B6", "#FBBF24", "#FB7185", "#F87171", "#C4B5FD"]
+      }
+    },
+    {
+      "id": "ozean",
+      "name": "Ozean",
+      "description": "Tiefblau, Türkis und Sand; Knoten als unterstrichener Text.",
+      "branchStyle": "curved",
+      "branchWidth": "uniform",
+      "nodeShape": "line",
+      "nodeFill": "none",
+      "font": "system",
+      "light": {
+        "canvas": "#F0F6F8",
+        "rootFill": "#0B3D5C",
+        "rootText": "#FFFFFF",
+        "nodeFill": "#F0F6F8",
+        "nodeText": "#0B2230",
+        "branches": ["#0B5E86", "#0F8A8A", "#2B6CB0", "#8A6A2E", "#12708F", "#4C51BF"]
+      },
+      "dark": {
+        "canvas": "#0C1A20",
+        "rootFill": "#176E96",
+        "rootText": "#FFFFFF",
+        "nodeFill": "#0C1A20",
+        "nodeText": "#E2F1F6",
+        "branches": ["#4FB3E0", "#3ED1C8", "#7FA8F0", "#E3C07A", "#5CC6E6", "#A3A8F5"]
+      }
+    },
+    {
+      "id": "pastell",
+      "name": "Pastell",
+      "description": "Weiche, gefüllte Knoten in Pastellfarben.",
+      "branchStyle": "curved",
+      "branchWidth": "tapered",
+      "nodeShape": "pill",
+      "nodeFill": "tinted",
+      "font": "rounded",
+      "light": {
+        "canvas": "#FBFAF7",
+        "rootFill": "#3F3D56",
+        "rootText": "#FFFFFF",
+        "nodeFill": "#FFFFFF",
+        "nodeText": "#2F2D40",
+        "branches": ["#C9557B", "#4F7FC9", "#338F6B", "#A86E22", "#8363C2", "#2F8A99"]
+      },
+      "dark": {
+        "canvas": "#1C1B22",
+        "rootFill": "#ECE8F7",
+        "rootText": "#1C1B22",
+        "nodeFill": "#26252E",
+        "nodeText": "#F1EEF8",
+        "branches": ["#F2A7BE", "#A9C6F2", "#98D9BC", "#F2C68E", "#C6B2EE", "#93D3DD"]
+      }
+    },
+    {
+      "id": "kontrast",
+      "name": "Hoher Kontrast",
+      "description": "Kräftige Farben und dicke Linien, gut lesbar und barrierearm.",
+      "branchStyle": "angled",
+      "branchWidth": "uniform-thick",
+      "nodeShape": "rectangle",
+      "nodeFill": "none",
+      "font": "system-bold",
+      "light": {
+        "canvas": "#FFFFFF",
+        "rootFill": "#000000",
+        "rootText": "#FFFFFF",
+        "nodeFill": "#FFFFFF",
+        "nodeText": "#000000",
+        "branches": ["#0040C0", "#B00020", "#006B2E", "#7A2E00", "#5B00A8", "#005A66"]
+      },
+      "dark": {
+        "canvas": "#000000",
+        "rootFill": "#FFFFFF",
+        "rootText": "#000000",
+        "nodeFill": "#000000",
+        "nodeText": "#FFFFFF",
+        "branches": ["#6FA8FF", "#FF6B81", "#4BE08A", "#FFB347", "#D19BFF", "#3FE0F0"]
+      }
+    },
+    {
+      "id": "papier",
+      "name": "Papier",
+      "description": "Grau und Sepia mit Serifenschrift – ideal zum Drucken.",
+      "branchStyle": "angled",
+      "branchWidth": "uniform",
+      "nodeShape": "line",
+      "nodeFill": "none",
+      "font": "serif",
+      "light": {
+        "canvas": "#FAF7F0",
+        "rootFill": "#3A342C",
+        "rootText": "#FAF7F0",
+        "nodeFill": "#FAF7F0",
+        "nodeText": "#2A2620",
+        "branches": ["#5C5247", "#7A6A55", "#4F5A5E", "#6E5A4A", "#5E5E5E", "#7C6F5F"]
+      },
+      "dark": {
+        "canvas": "#1D1B18",
+        "rootFill": "#D8CFC0",
+        "rootText": "#1D1B18",
+        "nodeFill": "#1D1B18",
+        "nodeText": "#ECE6DA",
+        "branches": ["#BFB3A2", "#C9B79A", "#A9B4B8", "#C4AE9C", "#B5B5B5", "#CDBFAE"]
+      }
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "description": "Leuchtende Farben auf Nachtblau, im hellen Modus gedämpft.",
+      "branchStyle": "curved",
+      "branchWidth": "tapered",
+      "nodeShape": "pill",
+      "nodeFill": "none",
+      "font": "rounded",
+      "light": {
+        "canvas": "#F4F4FA",
+        "rootFill": "#2A1B5E",
+        "rootText": "#FFFFFF",
+        "nodeFill": "#FFFFFF",
+        "nodeText": "#1A1830",
+        "branches": ["#7C3AED", "#DB2777", "#0891B2", "#4D7C0F", "#EA580C", "#2563EB"]
+      },
+      "dark": {
+        "canvas": "#0B0B14",
+        "rootFill": "#B388FF",
+        "rootText": "#0B0B14",
+        "nodeFill": "#141427",
+        "nodeText": "#F2F0FF",
+        "branches": ["#C084FC", "#FF4FA3", "#22D3EE", "#A3E635", "#FF9F43", "#60A5FA"]
+      }
+    }
+  ]
+}

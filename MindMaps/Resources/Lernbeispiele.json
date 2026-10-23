@@ -1,0 +1,2111 @@
+{
+ "documents": [
+  {
+   "document": {
+    "connections": [
+     {
+      "from": "8C903B80-96B1-5AAA-82A1-88216FB2BF38",
+      "id": "F6AB99DE-1760-57F6-AC96-DEE1F2409D83",
+      "label": "macht möglich",
+      "to": "D012A30C-C8DF-57AC-BE2D-DB53ADC08255"
+     }
+    ],
+    "createdAt": "2026-09-25T12:00:00Z",
+    "formatVersion": 1,
+    "modifiedAt": "2026-09-25T12:00:00Z",
+    "root": {
+     "children": [
+      {
+       "children": [
+        {
+         "id": "1B358FDA-2718-5275-A125-F03CAF9FA402",
+         "text": "Auswählen: Klick oder Pfeiltasten"
+        },
+        {
+         "id": "7AD50232-233C-505F-B058-84D3400163D1",
+         "note": "Legt einen Knoten eine Ebene tiefer an und startet gleich das Schreiben.",
+         "text": "Unterknoten: Tab"
+        },
+        {
+         "id": "193C63FB-CCA0-5240-8DF9-9BAD1EE3E249",
+         "text": "Knoten daneben: ↩"
+        },
+        {
+         "id": "E52CCFB2-BAC3-5790-88FB-BDEA07026900",
+         "text": "Text ändern: Doppelklick oder Leertaste"
+        },
+        {
+         "id": "B069D3AB-F96B-5586-9BC9-6D8B9844A1B5",
+         "text": "Löschen: ⌫ · Rückgängig: ⌘Z"
+        },
+        {
+         "id": "B913EF45-7F19-5A75-B475-FD7BF974FA72",
+         "text": "Umhängen: Knoten auf einen anderen ziehen"
+        },
+        {
+         "id": "1018F654-F1EE-5192-9F46-6F108BAC4FFA",
+         "note": "Eingeklappte Zweige zeigen eine Zahl: so viele Knoten sind darin versteckt. Klick auf die Zahl klappt wieder auf.",
+         "text": "Einklappen: ⌘ . oder Knopf „−“"
+        }
+       ],
+       "id": "7F71DEB5-F9C9-5DF9-86EA-6DE7B8C6BE31",
+       "note": "Die wichtigsten Tasten. Du brauchst fast nie die Maus.",
+       "tags": [
+        "Wichtig"
+       ],
+       "text": "1 · Grundlagen"
+      },
+      {
+       "children": [
+        {
+         "id": "D44E0DEE-4741-5EA8-AE43-376B35EFE2E6",
+         "note": "Die **Outline** (Gliederung) ist ideal zum schnellen Mitschreiben in der Vorlesung. Die **Map** zeigt Zusammenhänge. Beide sind immer gleich.",
+         "text": "Map, Outline oder beides: ⌘O"
+        },
+        {
+         "id": "E6F4ECB5-297E-505C-B095-DC8F7906DD63",
+         "text": "Ganze Map zeigen: ⌘0"
+        },
+        {
+         "id": "FCFE169C-4F07-5170-89BC-AF4A6B2A1847",
+         "text": "Zoomen: ⌘+ / ⌘− oder Trackpad"
+        },
+        {
+         "children": [
+          {
+           "children": [
+            {
+             "id": "4800F5C0-05B6-50A0-B056-F46DB752C2CB",
+             "style": {
+              "shape": "cloud"
+             },
+             "text": "Wolke = offene Frage"
+            },
+            {
+             "id": "6FFFD661-D3FD-5BFD-91BB-7E4C4E0B5677",
+             "style": {
+              "shape": "hexagon"
+             },
+             "text": "Sechseck = Definition"
+            },
+            {
+             "id": "A18DB619-06CF-5B86-BDB3-1C169E4C3DF7",
+             "style": {
+              "shape": "circle"
+             },
+             "text": "Kreis = Kernbegriff"
+            }
+           ],
+           "id": "CCEF2C93-BB7A-5DEF-A290-46FCDA49C14C",
+           "note": "Rechtsklick › *Form*. Tipp: eine Form pro Knotenart – so erkennt man schon von Weitem, was ein Knoten ist.",
+           "text": "Formen: 10 zur Auswahl"
+          },
+          {
+           "id": "C257B042-AF70-5F90-B229-08BBE101AD3F",
+           "note": "Hintergrund, Rahmen, Schriftgröße, **fett**/*kursiv* und Textfarbe gelten nur für diesen Knoten. Stil kopieren: Knoten in der Map auswählen, ⌘C. Übertragen: anderen (auch neuen) Knoten auswählen, ⌘R.",
+           "style": {
+            "border": "#E8A317",
+            "fill": "#FFF3BF"
+           },
+           "text": "Farben und Schrift pro Knoten"
+          },
+          {
+           "children": [
+            {
+             "id": "4A342F16-E4AE-5A88-A4F7-16853DF67120",
+             "text": "Dieser Zweig ist rot"
+            },
+            {
+             "id": "12502FD0-2683-5965-A24A-534C3E6C2245",
+             "text": "dieser auch"
+            }
+           ],
+           "id": "4EEF61EB-6E2F-5EE5-9FA1-9D4A3F35C236",
+           "style": {
+            "branchColor": "#E11D48"
+           },
+           "text": "Zweigfarbe gilt für alle Unterknoten"
+          },
+          {
+           "id": "F787AA63-20EC-5376-A7E4-D550926C98A1",
+           "note": "Seitenleiste › *Layout*: dort auch Ausrichtung, Abstand und Zweige (geschwungen oder eckig, verjüngt).",
+           "text": "Layout: horizontal, vertikal, kompakt, radial"
+          },
+          {
+           "id": "B96D4FAD-EF54-533F-BE06-5BCCA4BDF650",
+           "note": "Ziehen und **neben** einem Knoten loslassen. Loslassen **auf** einem Knoten hängt ihn dort an. Zurück an den alten Platz: Rechtsklick › *Position zurücksetzen*.",
+           "text": "Knoten frei verschieben"
+          },
+          {
+           "id": "BE3AA604-D0EE-5EA8-94CA-FA2B4019E762",
+           "note": "Seitenleiste › *Thema*: Farben anpassen, dann *Als eigenes Thema sichern …* – danach steht es bei allen Dokumenten zur Auswahl und lässt sich als Datei exportieren.",
+           "text": "Eigenes Thema sichern und weitergeben"
+          }
+         ],
+         "id": "B2937D88-87FD-522B-9C4B-84DBD1140DFA",
+         "note": "**Neu in Version 0.8.** Oder per Rechtsklick auf einen Knoten bzw. auf die freie Fläche der Map.",
+         "text": "Gestalten: Stil oben in der Leiste, Thema und Layout in der Seitenleiste (⇧⌘I)"
+        }
+       ],
+       "id": "19DF465C-6697-5213-A469-494B61FE5B3E",
+       "text": "2 · Ansichten und Gestaltung"
+      },
+      {
+       "children": [
+        {
+         "id": "8C903B80-96B1-5AAA-82A1-88216FB2BF38",
+         "note": "So bleibt die Map übersichtlich – und du siehst beim Lernen zuerst nur die Stichworte. Das zwingt dich, dich an die Details zu **erinnern**, statt sie nur wiederzuerkennen.",
+         "tags": [
+          "Merken"
+         ],
+         "text": "Stichwort in den Knoten, Erklärung in die Notiz"
+        },
+        {
+         "id": "2B8A5A84-38E1-5921-85F4-BF6B4156FDCE",
+         "text": "Notiz öffnen: Blatt-Symbol anklicken"
+        },
+        {
+         "id": "899B6F1B-6B9C-50AC-A0EF-78689D9A3DD3",
+         "note": "Aufgabe, Tags, Notiz, Link/Bild/Formel und Stil erscheinen oben in der Leiste, sobald ein Knoten ausgewählt ist. Die Seitenleiste zeigt Themen und Layout.",
+         "text": "Knoten-Werkzeuge oben, Seitenleiste: ⇧⌘I"
+        },
+        {
+         "id": "D96FAFAF-4720-528D-AD77-F12100141017",
+         "note": "So sieht eine formatierte Notiz aus:\n\n**Fett** für Schlüsselbegriffe, *kursiv* für Fachwörter.\n- Aufzählungen über den Knopf oben\n- Links wie zur [Pädagogischen Hochschule Freiburg](https://www.ph-freiburg.de)\n1. nummerierte Listen\n2. für Abläufe",
+         "text": "Formatieren: ⌘B fett, ⌘K kursiv, ⌥⌘K Link"
+        }
+       ],
+       "id": "1FC78A03-60D9-51A9-859F-2C7C78CD0347",
+       "tags": [
+        "Wichtig"
+       ],
+       "text": "3 · Notizen"
+      },
+      {
+       "children": [
+        {
+         "id": "099DEEF0-3D18-535D-BB6F-752B36EBC480",
+         "tags": [
+          "Wichtig"
+         ],
+         "text": "Wichtig – Kernaussage"
+        },
+        {
+         "id": "A26551A1-56FA-5B7D-AE6D-8BCF7EC082D0",
+         "tags": [
+          "Prüfung"
+         ],
+         "text": "Prüfung – kommt in der Klausur dran"
+        },
+        {
+         "id": "BF019565-C0F0-5658-A046-E7B9C6561803",
+         "tags": [
+          "Merken"
+         ],
+         "text": "Merken – Formel, Eselsbrücke"
+        },
+        {
+         "id": "18954B86-F150-5941-884D-2F909FF6AFF9",
+         "tags": [
+          "Beispiel"
+         ],
+         "text": "Beispiel – konkreter Fall"
+        },
+        {
+         "id": "8267C1D7-AD3F-575F-B10B-C96ED47E4433",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Definition – Fachbegriff"
+        },
+        {
+         "id": "2740CC3E-CCE8-5BFA-A026-442AF5D851AE",
+         "tags": [
+          "Frage"
+         ],
+         "text": "Frage – für den Selbsttest"
+        },
+        {
+         "id": "294E99E9-F3F7-5C72-9FC4-9CFAD4B938F2",
+         "note": "Vor der Sprechstunde: *Darstellung › Hervorheben › Unklar* – und du siehst sofort alle offenen Fragen.",
+         "tags": [
+          "Unklar"
+         ],
+         "text": "Unklar – noch nicht verstanden"
+        },
+        {
+         "id": "31DF972E-7EC7-5337-A20F-63F965CD39F2",
+         "note": "Blendet alles aus, was das Tag nicht hat. Vor der Klausur: nur **Prüfung** hervorheben und genau diese Knoten wiederholen.",
+         "tags": [
+          "Merken"
+         ],
+         "text": "Hervorheben: Darstellung › Hervorheben"
+        }
+       ],
+       "id": "803CFAB7-A67B-5E0E-A72C-886A3CA39509",
+       "note": "Tags markieren, **welche Rolle** ein Knoten beim Lernen spielt. Setzen: Menü *Knoten › Tags* oder ⌥⌘1 bis ⌥⌘7.",
+       "text": "4 · Tags"
+      },
+      {
+       "children": [
+        {
+         "id": "F37AEACF-390D-5C7D-AE5A-429F7FBCD4B5",
+         "text": "Als Aufgabe markieren: ⇧⌘T"
+        },
+        {
+         "id": "425E77B5-B2F4-560A-BFF1-042434BD3CB9",
+         "text": "Abhaken: Kästchen anklicken oder ⇧⌘D"
+        },
+        {
+         "children": [
+          {
+           "id": "893C9564-4150-5B68-8B06-D77B95474E08",
+           "task": "done",
+           "text": "Anleitung öffnen"
+          },
+          {
+           "id": "20B1EB7E-CFE4-5186-8D14-0D7E4D7EBA32",
+           "task": "done",
+           "text": "Diesen Zweig lesen"
+          },
+          {
+           "id": "F3220C95-0352-5FDE-A2E5-F6F91FB20037",
+           "task": "open",
+           "text": "Eine Aufgabe abhaken"
+          },
+          {
+           "id": "7395450E-9E27-5DE8-AF70-071521B645A1",
+           "task": "open",
+           "text": "Einem Knoten ein Tag geben"
+          }
+         ],
+         "id": "57DACD9F-40C7-58E1-ABD3-1A193518A4CB",
+         "note": "Der Kreis zeigt den Fortschritt aller Aufgaben darunter: leer = offen, halb = teilweise, voll = erledigt.",
+         "text": "Probier es aus"
+        },
+        {
+         "id": "E1BFC1A4-94CC-5762-BCF3-7498EA65BA52",
+         "note": "Die Bibliothek sammelt die offenen Aufgaben aus **allen** Dokumenten – dein Lernplan für die Woche. Doppelklick öffnet die Mindmap an der richtigen Stelle.",
+         "text": "Alle offenen Aufgaben: Bibliothek › Aufgaben"
+        },
+        {
+         "id": "B958F9F6-D6FC-56D8-9B00-E6AB322E5008",
+         "note": "Menü **Knoten › Aufgaben mit Erinnerungen abgleichen** legt in Apples Erinnerungen eine Liste für diese Mindmap an.\n\nAbhaken geht dann in beiden Apps – auch auf dem iPhone. Neue Erinnerungen in der Liste kommen als Aufgaben in die Map. Abgeglichen wird, solange die Mindmap geöffnet ist.",
+         "text": "Mit Erinnerungen abgleichen"
+        }
+       ],
+       "id": "F76A9AF9-DFBF-5110-9543-F1FA1E6167B9",
+       "text": "5 · Aufgaben"
+      },
+      {
+       "children": [
+        {
+         "id": "C03B7C00-4F2C-545F-86E3-656A62D2DF2F",
+         "note": "Hauptäste = Kapitel oder Leitfragen. Höchstens etwa **7 Äste** pro Ebene – mehr kann man sich schlecht merken. Reihenfolge im Uhrzeigersinn = Reihenfolge beim Lernen.",
+         "text": "Von grob nach fein"
+        },
+        {
+         "id": "0DF14507-511F-597F-A745-1C9130A89F30",
+         "text": "Stichworte statt Sätze"
+        },
+        {
+         "id": "D012A30C-C8DF-57AC-BE2D-DB53ADC08255",
+         "note": "Das ist **aktives Erinnern** (Retrieval Practice): Klappe einen Zweig ein, sag laut, was darin steht, und prüfe dann. Wirkt deutlich besser als nochmal lesen.\n\nIn den Lernbeispielen ist der Ast **Selbsttest** eingeklappt. Die Antworten stehen in den Notizen.",
+         "tags": [
+          "Wichtig"
+         ],
+         "text": "Selbsttest: einklappen – erinnern – aufklappen"
+        },
+        {
+         "id": "1DDBEBFE-F8F1-5DBA-8726-69B7193757A1",
+         "text": "Lernplan als Aufgaben"
+        },
+        {
+         "id": "5BA6A6F1-6A49-5CC7-BE7F-CED970E403A0",
+         "note": "Verteiltes Wiederholen (Spaced Repetition). Lege dafür Aufgaben im Lernplan an.",
+         "text": "Wiederholen: nach 1 Tag, 1 Woche, 1 Monat"
+        },
+        {
+         "id": "BF9F53D0-BA95-56C4-A316-64D21CD1ED30",
+         "note": "Alle Beispiele haben denselben Aufbau:\n1. **Überblick** mit Leitfrage\n2. **Grundbegriffe** (Tag *Definition*)\n3. **Kerninhalte** in logischer Reihenfolge\n4. **Anwendung** mit Beispielen\n5. **Selbsttest** (eingeklappt)\n6. **Lernplan** (Aufgaben)",
+         "text": "Lernbeispiele: Biologie, Jura, Medizin, Informatik, Geschichte, Politik"
+        }
+       ],
+       "id": "0EB05D11-8CAF-5BE6-AD1A-E02A3239C316",
+       "tags": [
+        "Merken"
+       ],
+       "text": "6 · So lernst du effizient"
+      },
+      {
+       "children": [
+        {
+         "id": "B0CBEA7F-4949-5FD1-A713-1671CDB01C04",
+         "note": "Durchsucht Knoten und Notizen. ⌘G springt zum nächsten Treffer.",
+         "text": "Suchen & Ersetzen: ⌘F"
+        },
+        {
+         "id": "61C46E01-7859-5620-BC52-1DA9F3693B3B",
+         "note": "PDF zum Ausdrucken, Markdown oder OPML für andere Programme.",
+         "text": "Exportieren: ⇧⌘E"
+        },
+        {
+         "id": "EAEB341E-4F7F-5EA4-9D4C-84B51B6464F0",
+         "text": "Importieren: ⌘I"
+        },
+        {
+         "id": "C3DBE0B7-DF8E-531A-B78F-215A41D03542",
+         "note": "Auf eine Seite verkleinert oder gut lesbar auf mehrere A4-Seiten verteilt – so wie die Map auf dem Bildschirm aussieht.",
+         "text": "Drucken: ⌘P"
+        },
+        {
+         "id": "E6F94AC3-99D1-50D8-9DD7-17DE17E46B95",
+         "text": "Bibliothek: ⇧⌘L"
+        },
+        {
+         "id": "0FF0363D-FBB5-54EC-B247-E57EEEDD39CD",
+         "note": "Findet deine Mindmaps auch über ein Wort, das nur in einem Knoten oder einer Notiz steht.",
+         "text": "Spotlight: ⌘ Leertaste"
+        },
+        {
+         "id": "A1107879-DEFC-56C6-911E-561E123E5211",
+         "note": "In der Kurzbefehle-App unter „MindMaps“: Neue Mindmap, Knoten hinzufügen, Mindmaps suchen, Mindmap öffnen und exportieren.\n\nBeispiel: „Mindmap exportieren“ (Format PDF, ohne Auswahl = zuletzt benutzte) und danach „Datei sichern“.",
+         "text": "Kurzbefehle und Siri"
+        }
+       ],
+       "id": "A8FBE2A9-2A52-5191-86B8-7F126B669609",
+       "text": "7 · Suchen, Export, Bibliothek"
+      },
+      {
+       "children": [
+        {
+         "id": "539D4553-5BD4-51FB-9CCE-50C4A7AD59C0",
+         "note": "Oder Rechtsklick › *Verbindung zu …* und dann den Zielknoten anklicken.\nDen Bogen verschiebst du am Griff in der Mitte, ein Doppelklick darauf ändert die Beschriftung.",
+         "text": "Querverbindung: ⌥ + Knoten auf einen anderen ziehen"
+        },
+        {
+         "id": "0F21FC06-97F7-50D9-800A-34CE71514CC8",
+         "note": "Alles außer dem ausgewählten Zweig wird blass – gut zum Wiederholen eines einzelnen Kapitels.",
+         "text": "Fokus auf einen Zweig: ⌥⌘F"
+        },
+        {
+         "id": "E252F70C-F6D0-5397-81DD-A81CD99D1929",
+         "note": "Vollbild, dann mit → Zweig für Zweig. **N** blendet die Notizen ein, **Esc** beendet.",
+         "text": "Präsentation: ⌥⌘P"
+        },
+        {
+         "id": "2B4AA140-3AE6-5FE9-9D9D-3BC505A726EB",
+         "link": "https://www.ph-freiburg.de",
+         "note": "Webadressen oder Links auf Knoten in anderen Mindmaps (Rechtsklick › *Link zu diesem Knoten kopieren*, dann im anderen Knoten einfügen).",
+         "text": "Link: ⌥⌘K"
+        },
+        {
+         "id": "6AEA984A-16EA-57AF-88F0-1AF9F9549358",
+         "note": "Aus dem Finder oder aus der Fotos-App. Die Größe änderst du am Griff unten rechts im Bild oder in der Seitenleiste.",
+         "text": "Bild: auf den Knoten ziehen"
+        },
+        {
+         "formula": "F = G \\frac{m_1 m_2}{r^2}",
+         "id": "B2E1C981-DD69-53DF-AB9C-A921D310109B",
+         "note": "LaTeX-Schreibweise: **^** hoch, **_** tief, **\\frac{a}{b}** Bruch, **\\sqrt{x}** Wurzel, **\\alpha** griechische Buchstaben, **\\cdot** Malpunkt.",
+         "text": "Formel: ⌥⌘E"
+        },
+        {
+         "id": "6D95F77A-0780-5309-BBE7-0D27E5C03696",
+         "text": "Emoji: ⌃⌘ Leertaste 🙂"
+        },
+        {
+         "id": "9F8E5B65-23FC-5D51-96F0-247A16114C57",
+         "text": "Rechtsklick: alle Aktionen für einen Knoten"
+        }
+       ],
+       "id": "CF52475E-56CD-5E7B-A049-5B3C782D9F26",
+       "note": "Neu in Version 0.7.",
+       "text": "8 · Verbinden, Präsentieren, Medien"
+      }
+     ],
+     "id": "8A5E92BB-55CE-52DA-8484-3ABBC169F620",
+     "note": "**Willkommen!** Diese Mindmap ist selbst ein Beispiel. Lies sie Ast für Ast – rechts oben geht es los, dann im Uhrzeigersinn weiter.\n\n**Grundregel:** Im Knoten steht nur ein Stichwort. Alles, was du erklären willst, gehört in die **Notiz** (das kleine Blatt-Symbol am Knoten).\n\nDu kannst hier alles ausprobieren. Die Datei gehört dir – löschen, ändern, abhaken.",
+     "text": "So lernst du mit MindMaps"
+    },
+    "themeID": "blau"
+   },
+   "name": "Anleitung – So funktioniert MindMaps"
+  },
+  {
+   "document": {
+    "connections": [
+     {
+      "from": "E0E4615B-3B7A-595F-B511-F21E59244E67",
+      "id": "E489C9BF-6DBD-57C0-898A-55D8A50F63DA",
+      "label": "ohne O₂",
+      "to": "F27E08A1-1454-5195-BCC0-A200391CCB65"
+     }
+    ],
+    "createdAt": "2026-09-25T12:00:00Z",
+    "formatVersion": 1,
+    "modifiedAt": "2026-09-25T12:00:00Z",
+    "root": {
+     "children": [
+      {
+       "children": [
+        {
+         "id": "C70E56B1-E29E-552E-909E-9A0A0B756E81",
+         "note": "Die Energie der Glucose wird **schrittweise** frei und in ATP gespeichert.\nAusbeute: etwa **30–32 ATP** pro Glucose (ältere Lehrbücher nennen 36–38).",
+         "tags": [
+          "Wichtig",
+          "Prüfung"
+         ],
+         "text": "C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O"
+        },
+        {
+         "id": "49F9E0D2-619F-53DD-98EB-3F75BB230E37",
+         "note": "Glykolyse im **Cytoplasma**, alle weiteren Schritte im **Mitochondrium** (Matrix bzw. innere Membran).",
+         "text": "Orte: Cytoplasma und Mitochondrium"
+        },
+        {
+         "id": "A12A77B5-B88B-5A9D-AFAD-006AD169BE64",
+         "tags": [
+          "Merken"
+         ],
+         "text": "Ziel: ATP als Energiewährung"
+        }
+       ],
+       "id": "ECEF0432-A02D-513C-9372-3B474FB3E2E7",
+       "text": "Überblick"
+      },
+      {
+       "children": [
+        {
+         "id": "E9BD6E0A-C66D-5184-8CC6-C7778D4E9BD0",
+         "note": "**Adenosintriphosphat** – universeller Energieträger der Zelle. Die Spaltung in ADP + Phosphat setzt Energie frei.",
+         "tags": [
+          "Definition"
+         ],
+         "text": "ATP"
+        },
+        {
+         "id": "1E7E0143-D776-57C1-8F4E-DEA444D4C8D0",
+         "note": "**Reduktionsäquivalente:** transportieren Elektronen (bzw. Wasserstoff) zur Atmungskette.",
+         "tags": [
+          "Definition"
+         ],
+         "text": "NADH und FADH₂"
+        },
+        {
+         "id": "F4D82B22-B2EA-52EC-91CA-5BFEDD2CF541",
+         "note": "aerob = mit Sauerstoff, anaerob = ohne Sauerstoff.",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Aerob / anaerob"
+        },
+        {
+         "id": "F864E76E-8FFE-57B3-AB6F-58F0A46A9618",
+         "note": "ATP entsteht **direkt** bei einer Stoffwechselreaktion – in Glykolyse und Citratzyklus.",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Substratkettenphosphorylierung"
+        },
+        {
+         "id": "597CB22E-38A6-532F-BFE7-5AFC5FBE1579",
+         "note": "ATP entsteht durch die **ATP-Synthase**, angetrieben vom Protonengradienten der Atmungskette.",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Oxidative Phosphorylierung"
+        }
+       ],
+       "id": "62B0BD0A-83F5-5B26-BAE5-9AED1CEAFD1D",
+       "text": "Grundbegriffe"
+      },
+      {
+       "children": [
+        {
+         "children": [
+          {
+           "id": "D4B04623-A90A-5089-9AF2-800B0B6F661A",
+           "text": "Glucose → 2 Pyruvat"
+          },
+          {
+           "id": "1B190C6D-D8FB-55E6-916C-39470A633EA5",
+           "tags": [
+            "Merken"
+           ],
+           "text": "Netto: 2 ATP + 2 NADH"
+          }
+         ],
+         "id": "FCF57BFA-B65D-576F-ABA4-7F574F2A189D",
+         "note": "**Ort:** Cytoplasma\n**Bilanz pro Glucose:**\n- 2 Pyruvat\n- netto 2 ATP\n- 2 NADH\n\nLäuft auch **ohne Sauerstoff**.",
+         "text": "1 Glykolyse"
+        },
+        {
+         "children": [
+          {
+           "id": "489E835B-53FB-5E30-83B2-0B06961EA648",
+           "text": "Pyruvat → Acetyl-CoA + CO₂"
+          }
+         ],
+         "id": "FEDED2C6-64AD-5E39-905E-E1A7B8BB6FA5",
+         "note": "**Ort:** Mitochondrienmatrix\nPro Pyruvat entstehen 1 CO₂ und 1 NADH.",
+         "text": "2 Oxidative Decarboxylierung"
+        },
+        {
+         "children": [
+          {
+           "id": "A776547A-D883-522B-A503-60AF61018CEC",
+           "text": "Pro Durchlauf: 3 NADH, 1 FADH₂, 1 ATP"
+          },
+          {
+           "id": "A68F07E5-B83E-545D-A20D-B3D4EBEB335A",
+           "tags": [
+            "Prüfung"
+           ],
+           "text": "Zwei Durchläufe pro Glucose"
+          }
+         ],
+         "id": "D1F26F5D-1966-53B1-8F57-75AC449E3B4C",
+         "note": "**Ort:** Mitochondrienmatrix\nPro Acetyl-CoA: 2 CO₂, 3 NADH, 1 FADH₂, 1 ATP (bzw. GTP).",
+         "text": "3 Citratzyklus"
+        },
+        {
+         "children": [
+          {
+           "id": "0B31B4CE-48A9-5E69-BEA0-78E57B03BCC0",
+           "tags": [
+            "Prüfung"
+           ],
+           "text": "Protonengradient treibt die ATP-Synthase"
+          },
+          {
+           "id": "63288148-745B-57CB-ADCB-0C2CBB23C05D",
+           "text": "O₂ ist letzter Elektronenakzeptor → H₂O"
+          },
+          {
+           "id": "ECDFA48E-6063-547F-B09D-10BF15284517",
+           "text": "Liefert den Großteil des ATP"
+          }
+         ],
+         "id": "E0E4615B-3B7A-595F-B511-F21E59244E67",
+         "note": "**Ort:** innere Mitochondrienmembran\n\nDie Elektronen von NADH und FADH₂ wandern über Proteinkomplexe. Dabei werden **Protonen** in den Intermembranraum gepumpt. Die **ATP-Synthase** nutzt den Rückstrom der Protonen und bildet so den größten Teil des ATP.\n\nSauerstoff nimmt am Ende die Elektronen auf – es entsteht Wasser.",
+         "tags": [
+          "Wichtig"
+         ],
+         "text": "4 Atmungskette"
+        }
+       ],
+       "id": "5EBEC0F1-BAAC-59A7-BA37-2F582B509460",
+       "tags": [
+        "Prüfung"
+       ],
+       "text": "Ablauf in 4 Schritten"
+      },
+      {
+       "children": [
+        {
+         "id": "84E4F3FA-0370-5F64-B428-3867957EF506",
+         "note": "Muskelzellen bei Sauerstoffmangel, Milchsäurebakterien (Joghurt). Pyruvat → **Lactat**; dabei wird NAD⁺ zurückgewonnen.",
+         "tags": [
+          "Beispiel"
+         ],
+         "text": "Milchsäuregärung"
+        },
+        {
+         "id": "C38AF126-4057-5ACC-881D-FD2901EB90E2",
+         "note": "Hefe (Brot, Bier): Pyruvat → **Ethanol + CO₂**.",
+         "tags": [
+          "Beispiel"
+         ],
+         "text": "Alkoholische Gärung"
+        },
+        {
+         "id": "9E0F353D-CD64-5149-82F0-0F8C044C2FE8",
+         "note": "ATP liefert nur die Glykolyse. Die Gärung dient allein dazu, **NAD⁺** zu regenerieren, damit die Glykolyse weiterlaufen kann.",
+         "tags": [
+          "Merken"
+         ],
+         "text": "Nur 2 ATP pro Glucose"
+        }
+       ],
+       "id": "F27E08A1-1454-5195-BCC0-A200391CCB65",
+       "text": "Ohne Sauerstoff: Gärung"
+      },
+      {
+       "children": [
+        {
+         "id": "18232F36-536F-5DCB-82D9-A74E90230088",
+         "note": "**G**lykolyse → **O**xidative Decarboxylierung → **C**itratzyklus → **A**tmungskette\nEselsbrücke: „**G**ute **O**chsen **c**hillen **a**bends.“",
+         "text": "Reihenfolge: G – O – C – A"
+        },
+        {
+         "id": "C0D2047A-2CB4-5012-8EE3-930ABE6D04F4",
+         "note": "Erst Cytoplasma, dann Mitochondrium – von außen nach innen.",
+         "text": "Erst draußen, dann drinnen"
+        }
+       ],
+       "id": "ABBFF245-899B-5049-BDAC-62FC4F3404D1",
+       "tags": [
+        "Merken"
+       ],
+       "text": "Merkhilfen"
+      },
+      {
+       "children": [
+        {
+         "id": "48CC2900-DC31-55F8-86AF-6E407D49485F",
+         "note": "Im Cytoplasma.",
+         "tags": [
+          "Frage"
+         ],
+         "text": "Wo läuft die Glykolyse ab?"
+        },
+        {
+         "id": "5F82BBB2-0027-5123-93E5-1EC2485DCBA4",
+         "note": "O₂ ist der **letzte Elektronenakzeptor**. Fehlt er, staut sich die Kette und NADH kann seine Elektronen nicht mehr abgeben.",
+         "tags": [
+          "Frage"
+         ],
+         "text": "Warum braucht die Atmungskette Sauerstoff?"
+        },
+        {
+         "id": "DF85304B-BFC6-5B28-84F2-A58ED6050464",
+         "note": "Nur die Glykolyse läuft ab (2 ATP). Citratzyklus und Atmungskette fallen weg.",
+         "tags": [
+          "Frage"
+         ],
+         "text": "Warum liefert die Gärung so wenig ATP?"
+        },
+        {
+         "id": "ACE4FF6B-0878-5C17-BF80-E1609BCC88E6",
+         "note": "Er speichert Energie wie ein Staudamm. Der Rückstrom der Protonen durch die ATP-Synthase treibt die ATP-Bildung an (Chemiosmose).",
+         "tags": [
+          "Frage",
+          "Prüfung"
+         ],
+         "text": "Welche Rolle spielt der Protonengradient?"
+        }
+       ],
+       "id": "1D8865E0-5619-516C-A0B7-805338B3BAB7",
+       "isCollapsed": true,
+       "text": "Selbsttest"
+      },
+      {
+       "children": [
+        {
+         "id": "4EDEC2F6-037F-577F-906E-E252F09D51E8",
+         "task": "done",
+         "text": "Kapitel Zellatmung lesen"
+        },
+        {
+         "id": "53F4BF8A-D919-57AA-BC15-DFB36E912424",
+         "task": "done",
+         "text": "Map bis zur Atmungskette anlegen"
+        },
+        {
+         "id": "D3402AF3-93E9-5645-8B3E-3C8A74CC6EF5",
+         "task": "open",
+         "text": "Selbsttest ohne Aufklappen beantworten"
+        },
+        {
+         "id": "260C15F1-012D-5BA1-9572-00B0CAF9D641",
+         "task": "open",
+         "text": "Bilanz der vier Schritte auswendig aufschreiben"
+        },
+        {
+         "id": "02E2100B-92B4-5908-8A93-6E1AC9641FAD",
+         "task": "open",
+         "text": "In einer Woche wiederholen"
+        }
+       ],
+       "id": "40C3B1FD-F2BD-5CF1-A6A2-C112F206D01C",
+       "text": "Lernplan"
+      }
+     ],
+     "id": "9387B3F7-C30A-536B-B847-CCED4EDE63D2",
+     "note": "**Leitfrage:** Wie gewinnt die Zelle aus Glucose Energie in Form von ATP?\n\n**Aufbau dieser Map:** Überblick → Grundbegriffe → die vier Schritte (in der Reihenfolge, in der sie ablaufen) → Gärung als Sonderfall → Merkhilfen → Selbsttest → Lernplan.\n\n*Lernbeispiel – zum Nachschlagen immer das Lehrbuch verwenden.*",
+     "text": "Zellatmung"
+    },
+    "themeID": "schwarzwald"
+   },
+   "name": "Biologie – Zellatmung"
+  },
+  {
+   "document": {
+    "connections": [
+     {
+      "from": "C4986B70-EEE8-583E-93B6-02360BC05A2A",
+      "id": "68C9B9D3-281E-5044-9502-0B91A912A3FD",
+      "label": "Anwendung",
+      "to": "006155EB-03E7-54C8-BC9A-8356324C04B2"
+     }
+    ],
+    "createdAt": "2026-09-25T12:00:00Z",
+    "formatVersion": 1,
+    "modifiedAt": "2026-09-25T12:00:00Z",
+    "root": {
+     "children": [
+      {
+       "children": [
+        {
+         "id": "5CC55171-51E1-531B-BA09-95A12676BEA3",
+         "note": "**Angebot** und **Annahme** (§§ 145 ff. BGB).",
+         "tags": [
+          "Wichtig"
+         ],
+         "text": "Vertrag = zwei übereinstimmende Willenserklärungen"
+        },
+        {
+         "id": "3EA4C1B9-9C9F-546D-8DDA-8B0E32B02FFD",
+         "note": "Beispiel-Obersatz: „A könnte gegen B einen Anspruch auf Zahlung von 300 € aus § 433 II BGB haben. Dann müsste ein wirksamer Kaufvertrag zustande gekommen sein.“",
+         "tags": [
+          "Merken"
+         ],
+         "text": "Gutachtenstil: Obersatz – Definition – Subsumtion – Ergebnis"
+        }
+       ],
+       "id": "88E1A536-C187-51FF-A9AD-4D4F61118CD7",
+       "text": "Überblick"
+      },
+      {
+       "children": [
+        {
+         "id": "5435AA24-107D-5AD7-A01E-7B691657F708",
+         "note": "Äußerung eines Willens, die **unmittelbar auf eine Rechtsfolge** gerichtet ist.",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Willenserklärung"
+        },
+        {
+         "id": "54141F9B-0BCB-5A21-9943-BDAA0B3A2610",
+         "note": "Empfangsbedürftige Willenserklärung, die so bestimmt ist, dass der Vertrag mit einem bloßen **„Ja“** zustande kommen kann (wesentliche Vertragsbestandteile).",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Angebot (§ 145 BGB)"
+        },
+        {
+         "id": "5A1F5764-D3AB-536F-A006-50E88C6D460A",
+         "note": "Vorbehaltlose Zustimmung zum Angebot.",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Annahme (§§ 146 ff. BGB)"
+        },
+        {
+         "id": "C4986B70-EEE8-583E-93B6-02360BC05A2A",
+         "note": "**Aufforderung**, selbst ein Angebot abzugeben – ohne Rechtsbindungswillen.\nBeispiele: Schaufenster, Katalog, Warenangebot im Onlineshop.",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Invitatio ad offerendum"
+        }
+       ],
+       "id": "935215CA-A27C-5B08-A6A6-4E662EB71A58",
+       "text": "Grundbegriffe"
+      },
+      {
+       "children": [
+        {
+         "children": [
+          {
+           "id": "123DFF3B-AF81-5F46-BB1D-38C6FBF7F836",
+           "text": "Äußerer Tatbestand: Erklärung nach außen"
+          },
+          {
+           "id": "C4F2B38D-447B-56C5-8705-81B9FA49D19F",
+           "note": "Fehlt das **Erklärungsbewusstsein**, liegt nach h. M. trotzdem eine Willenserklärung vor, wenn der Erklärende bei Anwendung der erforderlichen Sorgfalt hätte erkennen können, dass sein Verhalten als Willenserklärung verstanden wird (Anfechtung möglich).",
+           "text": "Innerer Tatbestand: Handlungswille, Erklärungsbewusstsein, Geschäftswille"
+          }
+         ],
+         "id": "141904C4-2818-50A3-9993-406AFA6AD62C",
+         "text": "1 Angebot"
+        },
+        {
+         "children": [
+          {
+           "id": "17AC5122-2EB2-58AB-9C83-4D1A16B5303C",
+           "text": "Abgabe"
+          },
+          {
+           "id": "BF7CBBB8-0553-5C56-94B6-B882074EC3E6",
+           "note": "**Zugang:** Die Erklärung ist so in den Machtbereich des Empfängers gelangt, dass unter gewöhnlichen Umständen mit ihrer Kenntnisnahme zu rechnen ist.",
+           "tags": [
+            "Prüfung"
+           ],
+           "text": "Zugang (§ 130 I BGB)"
+          }
+         ],
+         "id": "CEA686F5-40E3-51C6-97E5-45EB6076EB58",
+         "text": "2 Wirksamwerden des Angebots"
+        },
+        {
+         "children": [
+          {
+           "id": "9F14B6FD-8FCA-5246-B61B-6E70DDA33FE7",
+           "note": "- Unter Anwesenden: nur **sofort** (§ 147 I)\n- Unter Abwesenden: bis zu dem Zeitpunkt, zu dem mit einer Antwort unter regelmäßigen Umständen zu rechnen ist (§ 147 II)\n- Oder innerhalb einer gesetzten Frist (§ 148)",
+           "tags": [
+            "Prüfung"
+           ],
+           "text": "Rechtzeitig? (§§ 147, 148 BGB)"
+          },
+          {
+           "id": "44C73B24-7C14-5E89-B540-FE49A4FB8E3C",
+           "tags": [
+            "Merken"
+           ],
+           "text": "Verspätet oder mit Änderungen = neues Angebot (§ 150 BGB)"
+          },
+          {
+           "id": "14A57117-871F-5231-B083-F3BD9609A380",
+           "text": "Zugang der Annahme entbehrlich? (§ 151 BGB)"
+          }
+         ],
+         "id": "7F8B9BD2-78F9-5538-8056-03FC964D2915",
+         "text": "3 Annahme"
+        },
+        {
+         "children": [
+          {
+           "id": "E8D54AEF-8EDA-5C02-B582-8B75CE6FD1B1",
+           "note": "- unter 7 Jahren: **geschäftsunfähig** (§ 104 Nr. 1)\n- 7 bis 17 Jahre: **beschränkt geschäftsfähig** (§ 106)\n- lediglich rechtlich vorteilhaft: wirksam (§ 107)\n- sonst schwebend unwirksam (§ 108)\n- Taschengeldparagraph (§ 110)",
+           "text": "Geschäftsfähigkeit (§§ 104 ff. BGB)"
+          },
+          {
+           "id": "81833BFD-26C0-5DBA-B7BB-F6085F99E46A",
+           "note": "**Folge:** von Anfang an nichtig.\n**Gründe:** Inhalts- und Erklärungsirrtum (§ 119 I), Eigenschaftsirrtum (§ 119 II), arglistige Täuschung und Drohung (§ 123).\n**Fristen:** unverzüglich (§ 121), bei § 123 ein Jahr (§ 124).",
+           "text": "Anfechtung (§ 142 I BGB)"
+          }
+         ],
+         "id": "05083540-5967-5F1B-943C-39F0F00164C6",
+         "text": "4 Keine Unwirksamkeit"
+        }
+       ],
+       "id": "69CD055B-21C6-519A-851B-652B5AD07BC4",
+       "tags": [
+        "Prüfung"
+       ],
+       "text": "Prüfungsschema"
+      },
+      {
+       "children": [
+        {
+         "id": "9D7DA4DB-A538-5D44-B112-DB925FC9FE2E",
+         "note": "Ausnahmen u. a.: kaufmännisches Bestätigungsschreiben, § 362 HGB, vertragliche Vereinbarung.",
+         "tags": [
+          "Merken"
+         ],
+         "text": "Schweigen ist grundsätzlich keine Willenserklärung"
+        },
+        {
+         "id": "006155EB-03E7-54C8-BC9A-8356324C04B2",
+         "note": "Das Warenangebot ist nur eine invitatio ad offerendum. Die automatische Bestätigungsmail ist meist nur eine **Eingangsbestätigung** – die Annahme folgt oft erst mit dem Versand.",
+         "tags": [
+          "Beispiel"
+         ],
+         "text": "Onlineshop: Bestellung = Angebot"
+        },
+        {
+         "id": "E2ACB8E2-021D-5B43-B89F-D8748151DFA9",
+         "note": "Nach h. M. ein Angebot an jedermann – unter der Bedingung, dass Vorrat reicht und der Automat funktioniert.",
+         "tags": [
+          "Beispiel"
+         ],
+         "text": "Automat: Aufstellen = Angebot an jeden"
+        }
+       ],
+       "id": "F5CA3B31-EF1D-596D-A2C1-25276D37294C",
+       "tags": [
+        "Prüfung"
+       ],
+       "text": "Typische Probleme"
+      },
+      {
+       "children": [
+        {
+         "id": "D7A47191-C4B4-5AB4-828A-056A8ADD3BBE",
+         "note": "A bietet B am Montag per E-Mail sein Fahrrad für 300 € an. B antwortet am Mittwoch: „Einverstanden, aber für 250 €.“ A reagiert nicht.\n\n**Frage:** Ist ein Kaufvertrag zustande gekommen?",
+         "text": "Sachverhalt"
+        },
+        {
+         "children": [
+          {
+           "id": "EFAD7CE0-3E2D-544E-9E5D-CE4722E467DC",
+           "text": "Angebot des A (+)"
+          },
+          {
+           "id": "EE861E9D-5A2C-5CD0-81CC-17F28AC69041",
+           "text": "Antwort des B: Änderung = Ablehnung + neues Angebot (§ 150 II BGB)"
+          },
+          {
+           "id": "7767FD32-E43A-5138-A682-F7C631EA58E5",
+           "text": "Schweigen des A = keine Annahme"
+          },
+          {
+           "id": "A36448A6-44F7-54D7-A5F6-03B9380AFAC8",
+           "tags": [
+            "Wichtig"
+           ],
+           "text": "Ergebnis: kein Kaufvertrag"
+          }
+         ],
+         "id": "C0BEEAFE-790A-53B4-BA18-2EF8EB901D05",
+         "isCollapsed": true,
+         "text": "Lösungsskizze"
+        }
+       ],
+       "id": "71EF6A7A-BE48-5874-BE63-329D4DD74289",
+       "tags": [
+        "Beispiel"
+       ],
+       "text": "Fall zum Üben"
+      },
+      {
+       "children": [
+        {
+         "id": "773EC67D-0E3A-5955-953E-71A09D97299F",
+         "note": "Beim Angebot will sich der Erklärende **binden**; bei der invitatio fehlt der Rechtsbindungswille – er will selbst noch entscheiden, mit wem er abschließt.",
+         "tags": [
+          "Frage"
+         ],
+         "text": "Angebot oder invitatio ad offerendum – wo ist der Unterschied?"
+        },
+        {
+         "id": "CE63BFCC-E07B-50C2-BF38-08848219FB10",
+         "note": "Wenn sie im Postfach abrufbar ist und unter gewöhnlichen Umständen mit der Kenntnisnahme zu rechnen ist – im Geschäftsverkehr während der Geschäftszeiten; nachts eingehende Mails am nächsten Morgen.",
+         "tags": [
+          "Frage",
+          "Prüfung"
+         ],
+         "text": "Wann geht eine E-Mail zu?"
+        },
+        {
+         "id": "26471589-FFA0-5EFC-B273-067FD5C6C5ED",
+         "note": "Sie gilt als **neues Angebot** (§ 150 I BGB).",
+         "tags": [
+          "Frage"
+         ],
+         "text": "Welche Folge hat eine verspätete Annahme?"
+        },
+        {
+         "id": "49A0414F-81ED-5D06-B9CC-0BE1FBB6C042",
+         "note": "Nein. Er ist beschränkt geschäftsfähig (§ 106), der Kauf ist nicht lediglich rechtlich vorteilhaft (§ 107). § 110 greift nicht, weil die Leistung nicht vollständig mit Taschengeld bewirkt ist. → schwebend unwirksam (§ 108).",
+         "tags": [
+          "Frage"
+         ],
+         "text": "Darf ein 16-Jähriger allein ein Handy auf Raten kaufen?"
+        }
+       ],
+       "id": "5C9D28BE-AFD0-5C81-A311-4DB95FEF7F66",
+       "isCollapsed": true,
+       "text": "Selbsttest"
+      },
+      {
+       "children": [
+        {
+         "id": "25346768-2386-55C1-A67C-8F0CC4A9B331",
+         "task": "done",
+         "text": "§§ 104–157 BGB lesen"
+        },
+        {
+         "id": "61A00848-1E4B-567A-93C4-9A0304D84650",
+         "task": "done",
+         "text": "Definitionen auswendig lernen"
+        },
+        {
+         "id": "7B7FB37D-B3A6-594A-8914-2A44DA6AEBD2",
+         "task": "open",
+         "text": "Fall schriftlich im Gutachtenstil lösen"
+        },
+        {
+         "id": "FC706201-F79E-5236-8139-3DBFADAD3307",
+         "task": "open",
+         "text": "Altklausur BGB AT bearbeiten"
+        },
+        {
+         "id": "2F1E66D7-6104-5AD1-BE85-488802C21318",
+         "task": "open",
+         "text": "Anfechtung wiederholen"
+        }
+       ],
+       "id": "35C3EFEF-8DB9-5F21-8900-1C9FE0F5631D",
+       "text": "Lernplan"
+      }
+     ],
+     "id": "093F0CDE-9021-5EBC-8580-72E9A554BC31",
+     "note": "**Leitfrage:** Wann ist ein Vertrag wirksam zustande gekommen?\n\n**Aufbau dieser Map:** Der Ast *Prüfungsschema* folgt genau der Reihenfolge, in der du in der Klausur prüfst. Die Normen stehen in den Notizen – lies sie **immer im Gesetz** nach.\n\n*Lernbeispiel – keine Rechtsberatung.*",
+     "text": "Vertragsschluss (BGB AT)"
+    },
+    "themeID": "papier"
+   },
+   "name": "Jura – Vertragsschluss (BGB AT)"
+  },
+  {
+   "document": {
+    "connections": [
+     {
+      "from": "86462E55-9EE0-5B10-99D2-0A550317D0D2",
+      "id": "88D89E47-C067-54FE-BF1E-31235A2DF71A",
+      "label": "Störung",
+      "to": "634DD920-9852-5A60-BA74-5A3250A45E5A"
+     }
+    ],
+    "createdAt": "2026-09-25T12:00:00Z",
+    "formatVersion": 1,
+    "modifiedAt": "2026-09-25T12:00:00Z",
+    "root": {
+     "children": [
+      {
+       "children": [
+        {
+         "id": "566CD733-BE44-524B-AF60-CB3F1BCFB250",
+         "note": "Spezialisierte Herzmuskelzellen erzeugen **spontan** Aktionspotenziale. Das vegetative Nervensystem verändert nur die Frequenz.",
+         "tags": [
+          "Wichtig"
+         ],
+         "text": "Das Herz schlägt von selbst (Autorhythmie)"
+        },
+        {
+         "id": "64638225-C1A2-584B-B0AC-BB4FC0F9D343",
+         "text": "Erregung läuft von den Vorhöfen zu den Kammern"
+        }
+       ],
+       "id": "D2AD951B-8044-515A-92BC-DBC2AFB34573",
+       "text": "Überblick"
+      },
+      {
+       "children": [
+        {
+         "id": "C7232C1F-223A-5648-9E63-656138CC0667",
+         "note": "Langsame, spontane Depolarisation bis zur Schwelle – u. a. durch HCN-Kanäle (*funny current*, I_f).",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Schrittmacherpotenzial"
+        },
+        {
+         "id": "06F65783-73E9-51FB-803F-D8533B0AA613",
+         "note": "Zeit nach einer Erregung, in der keine neue ausgelöst werden kann. Schützt das Herz vor einer Dauerkontraktion.",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Refraktärzeit"
+        },
+        {
+         "id": "0ED0F078-B82B-5616-8C3E-2B798C7E0702",
+         "note": "**Sympathikus:** Frequenz steigt (positiv chronotrop).\n**Parasympathikus** (N. vagus): Frequenz sinkt (negativ chronotrop).",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Sympathikus / Parasympathikus"
+        }
+       ],
+       "id": "A555DB52-8475-5F16-B796-3639F415505A",
+       "text": "Grundbegriffe"
+      },
+      {
+       "children": [
+        {
+         "id": "08F142D3-8820-5B10-BD90-0B0A2107C942",
+         "note": "Im rechten Vorhof. **Primärer Schrittmacher**, 60–80 Schläge pro Minute.",
+         "tags": [
+          "Wichtig"
+         ],
+         "text": "1 Sinusknoten"
+        },
+        {
+         "id": "86462E55-9EE0-5B10-99D2-0A550317D0D2",
+         "note": "**Verzögert** die Überleitung – so ziehen sich die Vorhöfe vor den Kammern zusammen. Fällt der Sinusknoten aus, übernimmt er mit 40–50/min.",
+         "text": "2 AV-Knoten"
+        },
+        {
+         "id": "3ED8D63B-27B3-5555-BFBE-4765A349D1B4",
+         "text": "3 His-Bündel"
+        },
+        {
+         "id": "AE53B72A-87BE-5FD7-A7EE-46D39271E222",
+         "text": "4 Tawara-Schenkel (rechts und links)"
+        },
+        {
+         "id": "26EA08B9-E2CB-53F6-9DA4-C1CB0A0B9539",
+         "note": "Erregen die Kammermuskulatur. Als tertiäre Schrittmacher 20–40/min.",
+         "text": "5 Purkinje-Fasern"
+        },
+        {
+         "id": "B9F772DF-9A34-54E5-A7FB-AA81C778C393",
+         "note": "Je weiter unten im System, desto langsamer die Eigenfrequenz. Das schnellste Zentrum gibt den Takt vor.",
+         "tags": [
+          "Merken",
+          "Prüfung"
+         ],
+         "text": "Hierarchie: 60–80 → 40–50 → 20–40/min"
+        }
+       ],
+       "id": "6F7CAB17-4940-5468-A164-BB422CDE2607",
+       "tags": [
+        "Prüfung"
+       ],
+       "text": "Weg der Erregung"
+      },
+      {
+       "children": [
+        {
+         "id": "847D672D-0FDD-56A6-A632-63E14AD8569B",
+         "text": "P-Welle: Erregung der Vorhöfe"
+        },
+        {
+         "id": "B4EF015B-23B8-5ED4-BB9B-4A9B92CDE926",
+         "tags": [
+          "Merken"
+         ],
+         "text": "PQ-Zeit: Überleitung zu den Kammern (0,12–0,20 s)"
+        },
+        {
+         "id": "E7520F6B-6BF4-54EA-924A-578D72E6D54C",
+         "text": "QRS-Komplex: Erregung der Kammern (unter 0,12 s)"
+        },
+        {
+         "id": "A281FCAA-4551-5721-AA0D-E5C99B3DDDFD",
+         "text": "T-Welle: Rückbildung der Kammererregung"
+        }
+       ],
+       "id": "34951B7C-30A7-5F0E-B98E-DCA359B6AE52",
+       "tags": [
+        "Prüfung"
+       ],
+       "text": "EKG"
+      },
+      {
+       "children": [
+        {
+         "id": "634DD920-9852-5A60-BA74-5A3250A45E5A",
+         "note": "Verzögerte oder unterbrochene Überleitung.\n- Grad I: PQ-Zeit über 0,20 s\n- Grad III: Vorhöfe und Kammern schlagen unabhängig voneinander",
+         "tags": [
+          "Beispiel"
+         ],
+         "text": "AV-Block"
+        },
+        {
+         "id": "7E4675EA-65C0-53AA-93D7-470D87CA654F",
+         "note": "Ungeordnete Vorhoferregung: **keine P-Wellen**, unregelmäßige Kammerfrequenz (absolute Arrhythmie). Risiko: Blutgerinnsel und Schlaganfall.",
+         "tags": [
+          "Beispiel"
+         ],
+         "text": "Vorhofflimmern"
+        },
+        {
+         "id": "BC76CFBD-6394-585C-89CB-84F202F40DC8",
+         "note": "Übernimmt elektrisch die ausgefallene Erregungsbildung oder -leitung.",
+         "tags": [
+          "Beispiel"
+         ],
+         "text": "Herzschrittmacher"
+        }
+       ],
+       "id": "60A63234-2B53-52AC-8A1E-37780255A7C9",
+       "text": "Klinik"
+      },
+      {
+       "children": [
+        {
+         "id": "645CFC5E-876F-5E20-89FF-61A619F6BC19",
+         "note": "Damit sich die Vorhöfe **vor** den Kammern zusammenziehen und die Kammern vollständig füllen.",
+         "tags": [
+          "Frage"
+         ],
+         "text": "Warum verzögert der AV-Knoten die Überleitung?"
+        },
+        {
+         "id": "0CB71367-395D-536B-B6DF-7D7BA1473997",
+         "note": "20–40 Schläge pro Minute.",
+         "tags": [
+          "Frage",
+          "Prüfung"
+         ],
+         "text": "Welche Frequenz hat ein Kammerersatzrhythmus?"
+        },
+        {
+         "id": "6BAD9209-E869-5ABA-891A-5424754EF40D",
+         "note": "Die Überleitungszeit von den Vorhöfen auf die Kammern (normal 0,12–0,20 s).",
+         "tags": [
+          "Frage"
+         ],
+         "text": "Was zeigt die PQ-Zeit an?"
+        },
+        {
+         "id": "77C92241-F021-5EBC-BF45-82723A11F231",
+         "note": "Frequenz sinkt (negativ chronotrop), AV-Überleitung wird langsamer (negativ dromotrop).",
+         "tags": [
+          "Frage"
+         ],
+         "text": "Wie wirkt der Parasympathikus auf das Herz?"
+        }
+       ],
+       "id": "ADCE75CD-B63E-5C8E-A7EB-D2529864F58A",
+       "isCollapsed": true,
+       "text": "Selbsttest"
+      },
+      {
+       "children": [
+        {
+         "id": "062D1B72-5224-59BB-8EDE-1323A9B3C087",
+         "task": "done",
+         "text": "Physiologie-Kapitel Herz lesen"
+        },
+        {
+         "id": "15091ED2-233A-5A5C-89AE-60DDFBB47988",
+         "task": "open",
+         "text": "Normales EKG aus dem Kopf zeichnen"
+        },
+        {
+         "id": "18191854-31D6-50C3-94FF-E468B97719E4",
+         "task": "open",
+         "text": "Schrittmacher-Hierarchie ohne Hilfe aufsagen"
+        },
+        {
+         "id": "DCF5D214-8930-593A-A783-100AB1C55711",
+         "task": "open",
+         "text": "Altfragen zum Thema kreuzen"
+        }
+       ],
+       "id": "81C2A1EF-5489-5139-AB5C-4964F8CA6F6B",
+       "text": "Lernplan"
+      }
+     ],
+     "id": "1E649D85-951A-5F39-BDA3-33060ED74516",
+     "note": "**Leitfrage:** Wie entsteht der Herzschlag – und wie sieht man ihn im EKG?\n\n**Aufbau dieser Map:** Überblick → Grundbegriffe → der Weg der Erregung (Stationen in Reihenfolge) → EKG → Klinik → Selbsttest → Lernplan.\n\n*Lernbeispiel – ersetzt weder Lehrbuch noch ärztlichen Rat.*",
+     "text": "Herz: Erregungsbildung und -leitung"
+    },
+    "themeID": "sonnenuntergang"
+   },
+   "name": "Medizin – Erregung am Herzen"
+  },
+  {
+   "document": {
+    "connections": [
+     {
+      "from": "D8696BA8-22D9-5D68-8070-E49B1BC8D27C",
+      "id": "61E4577F-3D2B-585B-A216-3BE5D7869C5B",
+      "label": "Beispiel",
+      "to": "28238F3C-4A88-5CC8-A27D-0B9A21FA5E20"
+     }
+    ],
+    "createdAt": "2026-09-25T12:00:00Z",
+    "formatVersion": 1,
+    "modifiedAt": "2026-09-25T12:00:00Z",
+    "root": {
+     "children": [
+      {
+       "children": [
+        {
+         "id": "FDAC83D0-ACB5-5052-9281-56DE84CF0244",
+         "text": "Sortieren = Elemente nach einem Schlüssel ordnen"
+        },
+        {
+         "formula": "\\Omega(n \\log n)",
+         "id": "7547538F-FC4D-55DD-860C-1B6497E22A2E",
+         "note": "Jedes **vergleichsbasierte** Verfahren braucht im Worst Case mindestens etwa n log n Vergleiche. Schneller geht es nur mit Zusatzwissen über die Schlüssel (z. B. Counting Sort).",
+         "tags": [
+          "Wichtig",
+          "Prüfung"
+         ],
+         "text": "Untergrenze: Ω(n log n) Vergleiche"
+        }
+       ],
+       "id": "B698FC4A-4E0A-5403-8713-2F066B5BDCD3",
+       "text": "Überblick"
+      },
+      {
+       "children": [
+        {
+         "id": "4D2CD370-FF1E-5899-9013-460824C2DADF",
+         "note": "Beschreibt, wie der Aufwand mit der Eingabegröße *n* wächst. Konstante Faktoren fallen weg.",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Laufzeit in O-Notation"
+        },
+        {
+         "id": "705A4FF4-5181-5194-ABBE-2FFB3A4F5DC1",
+         "note": "Elemente mit **gleichem Schlüssel** behalten ihre ursprüngliche Reihenfolge.",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Stabil"
+        },
+        {
+         "id": "01452261-E83B-5EEF-82CD-F686B27B94DD",
+         "note": "Braucht nur wenig zusätzlichen Speicher (konstant bzw. logarithmisch).",
+         "tags": [
+          "Definition"
+         ],
+         "text": "In-place"
+        },
+        {
+         "id": "D8696BA8-22D9-5D68-8070-E49B1BC8D27C",
+         "note": "*Divide and Conquer:* Problem teilen, Teile rekursiv lösen, Ergebnisse zusammenführen.",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Teile und herrsche"
+        }
+       ],
+       "id": "A7E1C5BB-2375-5A56-83E8-6C8547118CD2",
+       "text": "Grundbegriffe"
+      },
+      {
+       "children": [
+        {
+         "id": "BB0448C6-2FB0-5A4C-9727-FF455B4F575D",
+         "note": "Benachbarte Elemente tauschen, bis kein Tausch mehr nötig ist.\n- stabil, in-place\n- O(n²), mit Abbruch bei sortierten Daten O(n)",
+         "text": "Bubble Sort"
+        },
+        {
+         "id": "8BC1B96C-0A98-578B-968B-E221291A502D",
+         "note": "Wie Spielkarten auf der Hand einsortieren.\n- stabil, in-place\n- O(n²), bei **fast sortierten** Daten nahezu O(n)\n- gut für kleine Datenmengen",
+         "tags": [
+          "Wichtig"
+         ],
+         "text": "Insertion Sort"
+        },
+        {
+         "id": "66B0270E-A2CD-51F8-ABD1-7927A6EB7FB4",
+         "note": "Kleinstes Element suchen und nach vorn tauschen.\n- in-place, **nicht** stabil\n- immer O(n²)",
+         "text": "Selection Sort"
+        }
+       ],
+       "id": "DA41C542-0BC4-5C6A-8F7D-8799FE8016B4",
+       "text": "Einfache Verfahren – O(n²)"
+      },
+      {
+       "children": [
+        {
+         "formula": "T(n) = 2\\,T\\left(\\frac{n}{2}\\right) + O(n)",
+         "id": "28238F3C-4A88-5CC8-A27D-0B9A21FA5E20",
+         "note": "Halbieren, beide Hälften rekursiv sortieren, dann **mischen**.\n- stabil\n- immer O(n log n)\n- braucht O(n) Zusatzspeicher",
+         "tags": [
+          "Prüfung"
+         ],
+         "text": "Merge Sort"
+        },
+        {
+         "id": "EDE91B5C-311B-557B-B9B9-3C4D356B15C5",
+         "note": "Pivot wählen, in „kleiner“ und „größer“ aufteilen, rekursiv sortieren.\n- in-place, nicht stabil\n- im Mittel O(n log n), im Worst Case O(n²)\n- in der Praxis sehr schnell",
+         "tags": [
+          "Prüfung"
+         ],
+         "text": "Quicksort"
+        },
+        {
+         "id": "EAA1D433-8EFC-5D79-9A1A-EA24D2AE6230",
+         "note": "Max-Heap aufbauen, die Wurzel immer ans Ende tauschen.\n- in-place, nicht stabil\n- immer O(n log n)",
+         "text": "Heapsort"
+        }
+       ],
+       "id": "E4E45C4F-3440-537B-85E4-A803B42EB245",
+       "text": "Effiziente Verfahren – O(n log n)"
+      },
+      {
+       "children": [
+        {
+         "id": "ED990EF7-C6D5-5505-9F71-7F0CD8D6CDC9",
+         "tags": [
+          "Merken"
+         ],
+         "text": "Stabil: Bubble, Insertion, Merge"
+        },
+        {
+         "id": "EF962F8E-B148-5B97-8824-2DB21ED4F28E",
+         "tags": [
+          "Prüfung"
+         ],
+         "text": "Worst Case O(n log n): Merge, Heap"
+        },
+        {
+         "id": "F59F7C2E-FB0C-5FB6-B673-495BA5B758FB",
+         "note": "1. [5, 2, 4, 1] → 2 einsortieren → [2, 5, 4, 1]\n2. 4 einsortieren → [2, 4, 5, 1]\n3. 1 einsortieren → [1, 2, 4, 5]",
+         "tags": [
+          "Beispiel"
+         ],
+         "text": "Beispiel: [5, 2, 4, 1] mit Insertion Sort"
+        }
+       ],
+       "id": "ECC46DF1-85F3-54BD-8EFF-408D0B32323D",
+       "tags": [
+        "Merken"
+       ],
+       "text": "Vergleich"
+      },
+      {
+       "children": [
+        {
+         "id": "98ADC8D3-7426-589D-9AAB-66614B9CF5B5",
+         "note": "Wenn das Pivot immer das kleinste oder größte Element ist – z. B. erstes Element als Pivot bei bereits sortierten Daten. Dann wird nur ein Element pro Schritt abgespalten.",
+         "tags": [
+          "Frage",
+          "Prüfung"
+         ],
+         "text": "Wann ist Quicksort quadratisch?"
+        },
+        {
+         "id": "318749E3-F631-5B66-8E16-F69651EA47A0",
+         "note": "**Insertion Sort** – nahezu linear.",
+         "tags": [
+          "Frage"
+         ],
+         "text": "Welches Verfahren für fast sortierte Daten?"
+        },
+        {
+         "id": "A81C693E-E786-57F9-B10D-4EBDA169EB95",
+         "note": "Gleiche Schlüssel behalten ihre Reihenfolge. Wichtig, wenn man nacheinander nach mehreren Kriterien sortiert (erst Vorname, dann Nachname).",
+         "tags": [
+          "Frage"
+         ],
+         "text": "Was heißt stabil – und wann ist das wichtig?"
+        },
+        {
+         "id": "C4D74403-1EE8-53BC-9D3C-34EA1B4668B8",
+         "tags": [
+          "Frage",
+          "Prüfung"
+         ],
+         "text": "Merge Sort in Pseudocode aufschreiben"
+        }
+       ],
+       "id": "4B7EC2A6-BD64-55C5-BEC1-B9F06CEB01F1",
+       "isCollapsed": true,
+       "text": "Selbsttest"
+      },
+      {
+       "children": [
+        {
+         "id": "C2B5C500-DB70-5685-9EBA-B8445F176328",
+         "task": "done",
+         "text": "Vorlesungsfolien Sortieren durcharbeiten"
+        },
+        {
+         "id": "1ABC9F0E-0028-58F6-9989-D6955815BA97",
+         "task": "done",
+         "text": "Insertion Sort programmieren"
+        },
+        {
+         "id": "D498F9D7-E04A-5174-A651-1425D975B91F",
+         "task": "open",
+         "text": "Merge Sort programmieren"
+        },
+        {
+         "id": "0B43D190-59CA-5C38-ACB4-FA8DCD644359",
+         "task": "open",
+         "text": "Laufzeiten-Tabelle aus dem Kopf aufschreiben"
+        },
+        {
+         "id": "0CEB13CE-E0A8-579D-9297-C77982292720",
+         "task": "open",
+         "text": "Übungsblatt 4 abgeben"
+        }
+       ],
+       "id": "9EAC01F1-FB36-5066-9C01-D3801EF4CEF1",
+       "text": "Lernplan"
+      }
+     ],
+     "id": "9239A6EC-F399-5C57-A859-8FBAF5E4CB7B",
+     "note": "**Leitfrage:** Wie sortiert man effizient – und woran vergleicht man Verfahren?\n\n**Aufbau dieser Map:** Begriffe zuerst, dann die Verfahren von einfach nach effizient, am Ende der Vergleich. Die Eigenschaften (stabil, in-place, Laufzeit) stehen in jeder Notiz an derselben Stelle.",
+     "text": "Sortieralgorithmen"
+    },
+    "themeID": "neon"
+   },
+   "name": "Informatik – Sortieralgorithmen"
+  },
+  {
+   "document": {
+    "connections": [
+     {
+      "from": "BD9D3DC0-D61C-5475-A8A2-7F001F57BDDC",
+      "id": "7E8691BD-0EAD-56F8-8561-CD645CFBDAB7",
+      "label": "ermöglicht",
+      "to": "54213F4D-814B-5EAF-B26C-4288C0225127"
+     }
+    ],
+    "createdAt": "2026-09-25T12:00:00Z",
+    "formatVersion": 1,
+    "modifiedAt": "2026-09-25T12:00:00Z",
+    "root": {
+     "children": [
+      {
+       "children": [
+        {
+         "id": "4941F8CD-3B1B-5D51-92D3-7F2FA2795E72",
+         "tags": [
+          "Wichtig"
+         ],
+         "text": "Erste parlamentarische Demokratie in Deutschland"
+        },
+        {
+         "id": "83DD153A-D183-57D4-9B3B-207066DE3620",
+         "note": "1. 1918–1923: Gründung und Krisenjahre\n2. 1924–1929: relative Stabilisierung\n3. 1930–1933: Auflösung der Demokratie",
+         "tags": [
+          "Merken"
+         ],
+         "text": "Drei Phasen: Krise – Stabilisierung – Auflösung"
+        }
+       ],
+       "id": "765849CB-1A6A-5869-B95A-158F866C4C86",
+       "text": "Überblick"
+      },
+      {
+       "children": [
+        {
+         "id": "BD9D3DC0-D61C-5475-A8A2-7F001F57BDDC",
+         "note": "Der Reichspräsident konnte bei Störung der öffentlichen Ordnung Maßnahmen ohne den Reichstag treffen und Grundrechte außer Kraft setzen.",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Notverordnung (Art. 48)"
+        },
+        {
+         "id": "A2791B26-2A0C-5E50-BAFE-7C3F76F8C4D6",
+         "note": "Regierung ohne Parlamentsmehrheit, gestützt auf das Vertrauen und die Notverordnungen des Reichspräsidenten (ab 1930).",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Präsidialkabinett"
+        },
+        {
+         "id": "CBB80F25-D70C-5DC9-983C-5FB5F474D543",
+         "note": "Behauptung, das Heer sei „im Felde unbesiegt“ von der Heimat verraten worden – Propaganda gegen Demokraten und Republik.",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Dolchstoßlegende"
+        }
+       ],
+       "id": "2E5B18AE-FE27-529B-8E84-32127F6B6739",
+       "text": "Grundbegriffe"
+      },
+      {
+       "children": [
+        {
+         "id": "BC5F804A-371A-5FA0-AB19-C9CCBA71BA40",
+         "note": "Philipp Scheidemann (SPD) ruft die Republik aus, kurz darauf Karl Liebknecht die „freie sozialistische Republik“.",
+         "tags": [
+          "Prüfung"
+         ],
+         "text": "9.11.1918: Ausrufung der Republik"
+        },
+        {
+         "id": "BF46C963-82AF-595D-B995-5EC75750DF94",
+         "note": "In Weimar beraten, am 11. August 1919 unterzeichnet.",
+         "text": "1919: Weimarer Verfassung"
+        },
+        {
+         "id": "8AEF145B-25C9-5804-901D-0D3416D94E87",
+         "note": "Gebietsverluste, Reparationen und der **Kriegsschuldartikel** (Art. 231) – eine schwere innenpolitische Belastung.",
+         "tags": [
+          "Wichtig"
+         ],
+         "text": "28.6.1919: Versailler Vertrag"
+        },
+        {
+         "id": "408FF5F0-49C1-5351-AD18-CCBDE286B4F8",
+         "text": "1920: Kapp-Putsch"
+        },
+        {
+         "children": [
+          {
+           "id": "2D22994F-9E62-518E-AA55-D78C02EC9A77",
+           "text": "Ruhrbesetzung"
+          },
+          {
+           "id": "DCA3B7F2-729D-5742-A99B-F43F7A82548F",
+           "text": "Hyperinflation"
+          },
+          {
+           "id": "75C0EBD9-49CB-5441-964B-8B142773A334",
+           "text": "Hitlerputsch (9.11.1923)"
+          }
+         ],
+         "id": "6A9509A7-A014-58A6-8DB7-78F904AD38F6",
+         "tags": [
+          "Prüfung"
+         ],
+         "text": "1923: Krisenjahr"
+        }
+       ],
+       "id": "EE42EF1C-5B0C-53BD-8BB7-E4BF8AA951ED",
+       "text": "1918–1923: Gründung und Krisen"
+      },
+      {
+       "children": [
+        {
+         "id": "38AA5D10-CA30-5391-8E45-68D619E0A50E",
+         "text": "Neue Währung: Rentenmark (Nov. 1923)"
+        },
+        {
+         "id": "83C379A1-ADB5-58ED-9C1F-843FE5185E5B",
+         "note": "Neuregelung der Reparationen, amerikanische Kredite.",
+         "text": "Dawes-Plan 1924"
+        },
+        {
+         "id": "E992F2CE-56C8-5F46-BC8B-39F75BAF13A5",
+         "note": "Außenminister **Gustav Stresemann**: Verständigung mit Frankreich, Rückkehr in die internationale Politik.",
+         "text": "Locarno 1925, Völkerbund 1926"
+        },
+        {
+         "id": "E9CBBAD0-DFA0-5AC5-8C05-0600F45768AF",
+         "tags": [
+          "Wichtig"
+         ],
+         "text": "Scheinblüte: abhängig von US-Krediten"
+        }
+       ],
+       "id": "B09122DA-3763-52AB-A3A8-C2CA5F9E737A",
+       "text": "1924–1929: Stabilisierung"
+      },
+      {
+       "children": [
+        {
+         "id": "269345F1-90B5-5B40-B4C3-AECE7DD92218",
+         "note": "Kredite werden abgezogen, Massenarbeitslosigkeit – 1932 über sechs Millionen registrierte Arbeitslose.",
+         "tags": [
+          "Prüfung"
+         ],
+         "text": "Weltwirtschaftskrise ab Oktober 1929"
+        },
+        {
+         "id": "54213F4D-814B-5EAF-B26C-4288C0225127",
+         "note": "Regieren mit Notverordnungen nach Art. 48 statt mit dem Reichstag.",
+         "text": "1930: Präsidialkabinett Brüning"
+        },
+        {
+         "id": "5D7B9EF4-7CB4-5685-BE9B-46414BA711F5",
+         "text": "Aufstieg von NSDAP und KPD"
+        },
+        {
+         "id": "5DAFD6EF-F7E3-5CF4-80A8-3B69A5F48A32",
+         "tags": [
+          "Wichtig",
+          "Prüfung"
+         ],
+         "text": "30.1.1933: Hitler wird Reichskanzler"
+        }
+       ],
+       "id": "AE0F7BFF-D407-5B25-8770-B8AD0E14BD5E",
+       "text": "1930–1933: Auflösung"
+      },
+      {
+       "children": [
+        {
+         "id": "52A6C61E-E8CE-5348-8A29-FBD1E231ED9D",
+         "note": "Versailler Vertrag, Dolchstoßlegende, Kriegsfolgen.",
+         "text": "Belastungen aus der Gründung"
+        },
+        {
+         "id": "1FBE70AB-D637-540F-9DAF-3315EDEE6C8D",
+         "note": "Art. 48 (Notverordnung) und Art. 25 (Auflösung des Reichstags) ermöglichten zusammen mit dem Ernennungsrecht ein Regieren am Parlament vorbei.",
+         "text": "Verfassung: starker Reichspräsident"
+        },
+        {
+         "id": "D1CE9F0A-D0F5-5A9B-9412-1F7EA582FF15",
+         "text": "Wirtschaftskrisen: 1923 und ab 1929"
+        },
+        {
+         "id": "2E35A4FA-28E9-54FD-B1F4-4993447EA2D4",
+         "note": "Große Teile der Eliten in Justiz, Militär und Verwaltung standen der Demokratie fern.",
+         "tags": [
+          "Merken"
+         ],
+         "text": "„Republik ohne Republikaner“"
+        },
+        {
+         "id": "A7468E38-BD9E-52A7-B587-49E55D2E9F06",
+         "note": "Das Ende war kein Automatismus: Hindenburg und sein Umfeld ernannten Hitler bewusst.",
+         "tags": [
+          "Merken"
+         ],
+         "text": "Entscheidungen von Personen"
+        }
+       ],
+       "id": "D6C83EE1-C3A7-52CC-B667-8C2E8FED6D78",
+       "note": "In der Klausur **mehrere Faktoren nennen und gewichten** – es gibt nicht die eine Ursache.",
+       "tags": [
+        "Prüfung"
+       ],
+       "text": "Warum scheiterte die Republik?"
+      },
+      {
+       "children": [
+        {
+         "id": "47DA9A6E-F411-5280-BA2C-92E22FDFC3A0",
+         "note": "Z. B. Versailler Vertrag, Dolchstoßlegende, Putschversuche von links und rechts.",
+         "tags": [
+          "Frage"
+         ],
+         "text": "Nenne drei Belastungen aus der Gründungszeit."
+        },
+        {
+         "id": "358DF14A-7468-54C3-9C24-AE835ED5A9F0",
+         "note": "Ruhrbesetzung, Hyperinflation und Hitlerputsch fallen in ein Jahr.",
+         "tags": [
+          "Frage"
+         ],
+         "text": "Warum gilt 1923 als Krisenjahr?"
+        },
+        {
+         "id": "00C9BF48-70FF-5F3A-B163-A6F6DD44D422",
+         "note": "Er ermöglichte ab 1930 Präsidialkabinette, die ohne Parlamentsmehrheit regierten – die Demokratie wurde ausgehöhlt, bevor sie abgeschafft wurde.",
+         "tags": [
+          "Frage",
+          "Prüfung"
+         ],
+         "text": "Welche Rolle spielte Art. 48?"
+        }
+       ],
+       "id": "2C4D00B1-82CF-5641-88CA-9254A596508B",
+       "isCollapsed": true,
+       "text": "Selbsttest"
+      },
+      {
+       "children": [
+        {
+         "id": "AE5B082C-44FF-51BF-A5DD-0FEC566BB455",
+         "task": "done",
+         "text": "Zeitleiste erstellen"
+        },
+        {
+         "id": "369F8354-237F-5960-AD64-464C8FB15697",
+         "task": "open",
+         "text": "Rede Scheidemanns als Quelle analysieren"
+        },
+        {
+         "id": "7A8489A7-DECD-5AA5-B3E4-944FB96ED6EC",
+         "task": "open",
+         "text": "Essay: Ursachen gewichten"
+        },
+        {
+         "id": "8264861D-E359-563E-BFE8-9EB35D52FFAB",
+         "task": "open",
+         "text": "Jahreszahlen wiederholen"
+        }
+       ],
+       "id": "15A5E0D3-EDF4-5923-9D52-2B1F8CD35347",
+       "text": "Lernplan"
+      }
+     ],
+     "id": "5B6DA382-394B-5A42-8F74-445F87F3FA2B",
+     "note": "**Leitfrage:** Warum scheiterte die erste deutsche Demokratie?\n\n**Aufbau dieser Map:** Die drei Phasen stehen **chronologisch** im Uhrzeigersinn. Der Ast *Warum scheiterte die Republik?* verknüpft sie – dort liegt der Kern jeder Klausurfrage.\n\nTipp: Jahreszahlen sind Anker, die Ursachen das Netz dazwischen.",
+     "text": "Weimarer Republik 1918–1933"
+    },
+    "themeID": "pastell"
+   },
+   "name": "Geschichte – Weimarer Republik"
+  },
+  {
+   "document": {
+    "connections": [
+     {
+      "from": "7CBEF88B-C4AF-5C59-813B-EEBC547C0D02",
+      "id": "3724C1C6-D293-5C93-9B5F-EB188BFCAD04",
+      "label": "Merkmal",
+      "to": "439551C3-D618-5B08-97D2-C08FC477A599"
+     }
+    ],
+    "createdAt": "2026-09-25T12:00:00Z",
+    "formatVersion": 1,
+    "modifiedAt": "2026-09-25T12:00:00Z",
+    "root": {
+     "children": [
+      {
+       "children": [
+        {
+         "id": "D5AB3A68-800A-5C2E-985C-15B7F0D6F7AF",
+         "text": "Demokratie"
+        },
+        {
+         "id": "95117FFB-E4F2-58CF-9857-4B9D105DEE45",
+         "text": "Rechtsstaat"
+        },
+        {
+         "id": "4255CD96-DB00-5CA9-956D-A85B13663EF1",
+         "text": "Sozialstaat"
+        },
+        {
+         "id": "ED7A3D13-3DE7-5682-8AE1-06CC6D89F60B",
+         "text": "Bundesstaat"
+        },
+        {
+         "id": "83279BB4-05B0-5058-B3C5-1466C1B8ACB3",
+         "text": "Republik"
+        },
+        {
+         "id": "D5380230-92BF-5EE7-AD94-599D6943D5FD",
+         "note": "Die Grundsätze aus Art. 1 und Art. 20 sowie die Gliederung des Bundes in Länder dürfen auch durch eine Verfassungsänderung nicht abgeschafft werden.",
+         "tags": [
+          "Wichtig"
+         ],
+         "text": "Ewigkeitsklausel (Art. 79 III GG)"
+        }
+       ],
+       "id": "2ADAA73B-FEC6-5735-B18F-458827959A07",
+       "tags": [
+        "Prüfung"
+       ],
+       "text": "Grundprinzipien (Art. 20 GG)"
+      },
+      {
+       "children": [
+        {
+         "id": "95E92A5A-D550-5431-9704-213639BA4297",
+         "note": "**Horizontal:** Legislative, Exekutive, Judikative.\n**Vertikal:** Bund, Länder, Kommunen (Föderalismus).",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Gewaltenteilung"
+        },
+        {
+         "id": "439551C3-D618-5B08-97D2-C08FC477A599",
+         "note": "Die Regierung hängt vom Vertrauen des Parlaments ab und kann von ihm abberufen werden (Unterscheidung nach Winfried Steffani).",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Parlamentarisches Regierungssystem"
+        },
+        {
+         "id": "D9291CA4-E96E-51D4-8B44-7F2ABFEA1664",
+         "note": "Die Länder sind eigene Staaten mit eigenen Aufgaben und wirken über den Bundesrat an der Bundespolitik mit.",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Föderalismus"
+        }
+       ],
+       "id": "F5368B00-17AA-5852-B181-FC7F269824D1",
+       "text": "Grundbegriffe"
+      },
+      {
+       "children": [
+        {
+         "children": [
+          {
+           "id": "34F633A7-E451-592E-9A58-29C6B068BB9E",
+           "text": "Gesetzgebung"
+          },
+          {
+           "id": "2B36BABC-1F49-5CCE-B63F-F99323B49BDD",
+           "text": "Wahl des Bundeskanzlers (Art. 63 GG)"
+          },
+          {
+           "id": "30110181-8BF1-5EA4-857A-070283771506",
+           "text": "Kontrolle der Regierung"
+          },
+          {
+           "id": "7CBEF88B-C4AF-5C59-813B-EEBC547C0D02",
+           "note": "Der Kanzler kann nur abgewählt werden, indem **gleichzeitig ein Nachfolger** gewählt wird – eine Lehre aus der Weimarer Republik (siehe Lernbeispiel Geschichte).",
+           "tags": [
+            "Prüfung",
+            "Merken"
+           ],
+           "text": "Konstruktives Misstrauensvotum (Art. 67 GG)"
+          }
+         ],
+         "id": "42894AD7-913A-5845-A3E5-DFF084C0A5F2",
+         "tags": [
+          "Wichtig"
+         ],
+         "text": "Bundestag"
+        },
+        {
+         "children": [
+          {
+           "id": "DB66BA84-8BD8-53EC-A9D0-3E717F8702AB",
+           "text": "Vertretung der Länder (Art. 50 GG)"
+          },
+          {
+           "id": "2FBD14F7-BA68-5CBC-95A6-42C2573C3D28",
+           "note": "**Zustimmungsgesetze** scheitern ohne Zustimmung des Bundesrats. **Einspruchsgesetze** kann der Bundestag trotz Einspruch beschließen (Überstimmung).",
+           "tags": [
+            "Prüfung"
+           ],
+           "text": "Einspruchs- und Zustimmungsgesetze"
+          }
+         ],
+         "id": "C3C4C2AC-7E51-5F7F-9DB6-BF70701CE9AF",
+         "text": "Bundesrat"
+        },
+        {
+         "children": [
+          {
+           "id": "D693230E-99A6-5313-BC9E-D11F355112AB",
+           "tags": [
+            "Prüfung"
+           ],
+           "text": "Kanzlerprinzip: Richtlinienkompetenz"
+          },
+          {
+           "id": "F2429A92-1CB6-5DD3-B23F-BE7481422419",
+           "text": "Ressortprinzip"
+          },
+          {
+           "id": "0E5DAE7F-1BD7-5C1D-84B7-2F8AD08D196F",
+           "text": "Kollegialprinzip"
+          }
+         ],
+         "id": "AAEFDA30-B021-5D6B-ABAB-3F34013A995D",
+         "note": "Die drei Prinzipien stehen in **Art. 65 GG**.",
+         "text": "Bundesregierung"
+        },
+        {
+         "id": "14AEB85B-0C03-5CA4-83BB-3664C770F49E",
+         "note": "Staatsoberhaupt, von der Bundesversammlung für fünf Jahre gewählt. Vor allem repräsentative und prüfende Aufgaben.",
+         "text": "Bundespräsident"
+        },
+        {
+         "id": "6FB27584-99AE-55EE-B79B-77E1E293E892",
+         "note": "„Hüter der Verfassung“ – u. a. Normenkontrolle, Organstreit, Verfassungsbeschwerde.",
+         "text": "Bundesverfassungsgericht"
+        }
+       ],
+       "id": "1FDBAD47-EB56-51D2-A357-E97D05ED496A",
+       "text": "Verfassungsorgane"
+      },
+      {
+       "children": [
+        {
+         "id": "C70921F4-CB97-5CE8-8A8E-CEBD19DCECBA",
+         "text": "1 Initiative: Regierung, Bundestag oder Bundesrat (Art. 76 GG)"
+        },
+        {
+         "id": "B5585E17-E011-57B0-89EA-B936BB422184",
+         "text": "2 Drei Lesungen im Bundestag"
+        },
+        {
+         "id": "F578CDE3-A063-571C-926D-17DBCF6913B4",
+         "text": "3 Bundesrat: Einspruch oder Zustimmung"
+        },
+        {
+         "id": "25FF5A75-634E-5728-AF4E-D5E618873E16",
+         "text": "4 Bei Streit: Vermittlungsausschuss"
+        },
+        {
+         "id": "1D17840A-C565-555F-962F-1AF895E9E457",
+         "text": "5 Ausfertigung durch den Bundespräsidenten, Verkündung"
+        }
+       ],
+       "id": "80926AB0-AEA6-594E-A07A-033CEEF66A35",
+       "text": "Gesetzgebung"
+      },
+      {
+       "children": [
+        {
+         "id": "A6E8A324-ADEC-5EE0-8B5C-99155BBA78F7",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Personalisierte Verhältniswahl"
+        },
+        {
+         "id": "2DDED5AB-A834-5227-AEB3-C10D7DA85515",
+         "text": "Erststimme: Kandidat im Wahlkreis"
+        },
+        {
+         "id": "E9A58CC5-E5D0-5168-9FA0-F0B1190115BB",
+         "tags": [
+          "Wichtig"
+         ],
+         "text": "Zweitstimme: Partei – entscheidet über die Sitzverteilung"
+        },
+        {
+         "id": "094E1871-96F4-59CA-A428-98838C4FE8E8",
+         "note": "Die mit der Reform 2023 geplante Abschaffung der **Grundmandatsklausel** hat das Bundesverfassungsgericht 2024 für verfassungswidrig erklärt – sie gilt weiter.",
+         "text": "5-%-Hürde oder 3 Direktmandate"
+        },
+        {
+         "id": "A8519C03-6759-5AEB-9553-0741CE9CBB94",
+         "note": "Seit der Wahl 2025 gibt es keine Überhang- und Ausgleichsmandate mehr. Wer seinen Wahlkreis gewinnt, bekommt das Mandat nur, wenn es durch das Zweitstimmenergebnis seiner Partei gedeckt ist.",
+         "text": "630 Sitze, Zweitstimmendeckung"
+        }
+       ],
+       "id": "329E8A11-7BAC-5D26-90C8-A5769A75F01A",
+       "tags": [
+        "Prüfung"
+       ],
+       "text": "Wahlsystem (Bundestag)"
+      },
+      {
+       "children": [
+        {
+         "id": "74953FCA-2961-5AD2-ACAF-5DE468CF4F44",
+         "note": "Damit eine Regierung nicht durch eine rein **negative** Mehrheit gestürzt werden kann, die sich auf keinen Nachfolger einigt – wie in Weimar.",
+         "tags": [
+          "Frage",
+          "Prüfung"
+         ],
+         "text": "Warum gibt es das konstruktive Misstrauensvotum?"
+        },
+        {
+         "id": "A06CDA6A-2D2E-5B9E-AD42-DDC26E96F474",
+         "note": "Beim Zustimmungsgesetz hat der Bundesrat ein echtes Veto; beim Einspruchsgesetz kann der Bundestag ihn überstimmen.",
+         "tags": [
+          "Frage"
+         ],
+         "text": "Einspruchs- oder Zustimmungsgesetz – was ist der Unterschied?"
+        },
+        {
+         "id": "CDE5595A-4CFA-5266-8EF4-24C44DCC9098",
+         "note": "Die Zweitstimme.",
+         "tags": [
+          "Frage"
+         ],
+         "text": "Welche Stimme entscheidet über die Sitzverteilung?"
+        },
+        {
+         "id": "8DF03343-4649-592A-994D-066AC1841804",
+         "note": "Kanzlerprinzip, Ressortprinzip, Kollegialprinzip.",
+         "tags": [
+          "Frage"
+         ],
+         "text": "Nenne die drei Prinzipien aus Art. 65 GG."
+        }
+       ],
+       "id": "F82CE842-3C77-5308-B3FD-509F3FB6E3D1",
+       "isCollapsed": true,
+       "text": "Selbsttest"
+      },
+      {
+       "children": [
+        {
+         "id": "26A6C790-A28D-5ADF-9516-07B23722D9AE",
+         "task": "done",
+         "text": "Grundgesetz Art. 20 und 38–69 lesen"
+        },
+        {
+         "id": "8945B365-CC4E-5FE3-B94C-191721BC13F2",
+         "task": "open",
+         "text": "Schaubild zur Gesetzgebung zeichnen"
+        },
+        {
+         "id": "03026B6E-E580-50E8-8F26-0F1994E02EB6",
+         "task": "open",
+         "text": "Wahlrechtsreform 2023 zusammenfassen"
+        },
+        {
+         "id": "B21254F1-EB7F-5CF4-93EB-BAC3D52E7C0B",
+         "task": "open",
+         "text": "Seminartext zu Steffani exzerpieren"
+        }
+       ],
+       "id": "2264C567-A0D6-5AF0-B76B-1B3A9285B0D3",
+       "text": "Lernplan"
+      }
+     ],
+     "id": "F5FADC25-17BC-59DB-8B2E-A10860C2E5A4",
+     "note": "**Leitfrage:** Wer entscheidet in Deutschland was – und wie kontrollieren sich die Organe gegenseitig?\n\n**Aufbau dieser Map:** Prinzipien → Begriffe → Verfassungsorgane → Gesetzgebung (Schritte in Reihenfolge) → Wahlsystem → Selbsttest → Lernplan.\n\nStand des Wahlrechts: Bundestagswahl 2025.",
+     "text": "Politisches System der Bundesrepublik"
+    },
+    "themeID": "ozean"
+   },
+   "name": "Politikwissenschaft – Politisches System der BRD"
+  }
+ ],
+ "folder": "Lernbeispiele"
+}

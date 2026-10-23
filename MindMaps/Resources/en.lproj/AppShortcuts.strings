@@ -1,0 +1,11 @@
+/* MindMaps – Siri-Sätze auf Englisch (M12). */
+
+"Erstelle eine Mindmap mit ${applicationName}" = "Create a mind map with ${applicationName}";
+"Füge in ${applicationName} einen Knoten hinzu" = "Add a node to ${applicationName}";
+"Knoten in ${applicationName} hinzufügen" = "Add a node in ${applicationName}";
+"Letzte Mindmap aus ${applicationName} als ${format} exportieren" = "Export the last mind map from ${applicationName} as ${format}";
+"Letzte Mindmap aus ${applicationName} exportieren" = "Export the last mind map from ${applicationName}";
+"Letzte Mindmap in ${applicationName} öffnen" = "Open the last mind map in ${applicationName}";
+"Mindmaps in ${applicationName} suchen" = "Find mind maps in ${applicationName}";
+"Neue Mindmap in ${applicationName}" = "New mind map in ${applicationName}";
+"Suche in ${applicationName}" = "Search in ${applicationName}";

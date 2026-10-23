@@ -1,0 +1,431 @@
+{
+ "documents": [
+  {
+   "document": {
+    "connections": [
+     {
+      "from": "C5BC6BEE-9E85-558B-9134-B2EAC050A044",
+      "id": "2A581DBB-D6F6-5135-9FE8-B2A4032D359B",
+      "label": "makes possible",
+      "to": "6461D800-13EE-5061-BEC4-465542BD6C14"
+     }
+    ],
+    "createdAt": "2026-09-25T12:00:00Z",
+    "formatVersion": 1,
+    "modifiedAt": "2026-09-25T12:00:00Z",
+    "root": {
+     "children": [
+      {
+       "children": [
+        {
+         "id": "5E344639-B568-5FFF-BFCC-E8758184729C",
+         "text": "Select: click or arrow keys"
+        },
+        {
+         "id": "79C08921-F40F-5FC2-8B0A-5D39DA3B351D",
+         "note": "Adds a node one level down and starts typing right away.",
+         "text": "Child node: Tab"
+        },
+        {
+         "id": "ABA05798-BBCC-5331-8E71-C0126E20C6B1",
+         "text": "Node next to it: ↩"
+        },
+        {
+         "id": "EF98833B-AA03-51F3-88C2-65ADD8999883",
+         "text": "Edit text: double-click or Space"
+        },
+        {
+         "id": "E3F7D8C2-4482-5FA0-8972-7AEA8992B4BE",
+         "text": "Delete: ⌫ · Undo: ⌘Z"
+        },
+        {
+         "id": "78B45C28-E033-563D-BD9A-0AC55829B637",
+         "text": "Move: drag a node onto another one"
+        },
+        {
+         "id": "51FA4FA9-5277-5CE2-8976-8E52ED9DA765",
+         "note": "Collapsed branches show a number: that many nodes are hidden inside. Click the number to expand again.",
+         "text": "Collapse: ⌘ . or the “−” button"
+        }
+       ],
+       "id": "7DB28C3B-AFA4-5BC4-A91B-E45F6D057904",
+       "note": "The most important keys. You hardly ever need the mouse.",
+       "tags": [
+        "Important"
+       ],
+       "text": "1 · Basics"
+      },
+      {
+       "children": [
+        {
+         "id": "3E7BAA0C-B596-564B-A652-630BAF244430",
+         "note": "The **outline** is ideal for quick notes in a lecture. The **map** shows how things connect. Both always show the same content.",
+         "text": "Map, outline or both: ⌘O"
+        },
+        {
+         "id": "EF75734D-7F6E-5DC3-A649-3FB919D2F5D0",
+         "text": "Show the whole map: ⌘0"
+        },
+        {
+         "id": "6FB2577E-9165-5A86-A32B-418259AF87A3",
+         "text": "Zoom: ⌘+ / ⌘− or trackpad"
+        },
+        {
+         "children": [
+          {
+           "children": [
+            {
+             "id": "8B6D5982-7EFB-54F4-A85E-2C83E3987C7B",
+             "style": {
+              "shape": "cloud"
+             },
+             "text": "Cloud = open question"
+            },
+            {
+             "id": "BCAF7E14-2AEC-5E72-9FCC-560BFDB035F3",
+             "style": {
+              "shape": "hexagon"
+             },
+             "text": "Hexagon = definition"
+            },
+            {
+             "id": "9F4B7A03-7BE0-5EE1-8D7B-F2B349365AC0",
+             "style": {
+              "shape": "circle"
+             },
+             "text": "Circle = key term"
+            }
+           ],
+           "id": "723F2467-1BEB-53FB-9411-ABA1E440326F",
+           "note": "Right-click › *Shape*. Tip: one shape per kind of node – you can tell from afar what a node is.",
+           "text": "Shapes: 10 to choose from"
+          },
+          {
+           "id": "BF2B76E1-F2A3-525A-9824-4000CCB427B9",
+           "note": "Background, border, font size, **bold**/*italic* and text color apply to this node only. Copy a style: select a node in the map, ⌘C. Apply it: select another (even a new) node, ⌘R.",
+           "style": {
+            "border": "#E8A317",
+            "fill": "#FFF3BF"
+           },
+           "text": "Colors and font per node"
+          },
+          {
+           "children": [
+            {
+             "id": "48CDAF04-01B2-5C36-BE1D-3AD0D3FCB849",
+             "text": "This branch is red"
+            },
+            {
+             "id": "2C1FDABA-E6BC-546E-9980-E0DCB9F64E15",
+             "text": "so is this one"
+            }
+           ],
+           "id": "BF707F24-721E-5F59-8988-FC315C36E4E4",
+           "style": {
+            "branchColor": "#E11D48"
+           },
+           "text": "Branch color applies to all child nodes"
+          },
+          {
+           "id": "E583AB75-8F9B-554E-BE2A-720D71868642",
+           "note": "Sidebar › *Layout*: also direction, spacing and branches (curved or angled, tapered).",
+           "text": "Layout: horizontal, vertical, compact, radial"
+          },
+          {
+           "id": "1A7DB41C-A302-53AC-B987-73937C300C28",
+           "note": "Drag and drop **next to** a node. Dropping **onto** a node attaches it there. Back to its place: right-click › *Reset Position*.",
+           "text": "Move nodes freely"
+          },
+          {
+           "id": "91F23B80-6A7C-5448-91B4-3406DB013B31",
+           "note": "Sidebar › *Theme*: adjust the colors, then *Save as Own Theme …* – it is then available for all documents and can be exported as a file.",
+           "text": "Save and share your own theme"
+          }
+         ],
+         "id": "8D158437-E44C-56C9-8B4C-0C9064E87FA4",
+         "note": "Or right-click a node or the empty area of the map.",
+         "text": "Style: in the toolbar; theme and layout in the sidebar (⇧⌘I)"
+        }
+       ],
+       "id": "41ACB26B-FB09-5E28-A464-3B2A72A0536D",
+       "text": "2 · Views and Styling"
+      },
+      {
+       "children": [
+        {
+         "id": "C5BC6BEE-9E85-558B-9134-B2EAC050A044",
+         "note": "That keeps the map clear – and while learning you first see only the keywords. This makes you **recall** the details instead of just recognizing them.",
+         "tags": [
+          "Remember"
+         ],
+         "text": "Keyword in the node, explanation in the note"
+        },
+        {
+         "id": "04968781-6703-5E33-B41C-24AAD3D9E9FA",
+         "text": "Open a note: click the page icon"
+        },
+        {
+         "id": "59E75ACA-414C-5A08-B217-24E525A5970D",
+         "note": "Task, tags, note, link/image/formula and style appear in the toolbar as soon as a node is selected. The sidebar shows themes and layout.",
+         "text": "Node tools in the toolbar, sidebar: ⇧⌘I"
+        },
+        {
+         "id": "B9312501-EE0D-54B2-A412-E2E38D19E553",
+         "note": "This is what a formatted note looks like:\n\n**Bold** for key terms, *italic* for technical terms.\n- Bullet lists with the button at the top\n- Links like the one to the [University of Education Freiburg](https://www.ph-freiburg.de)\n1. numbered lists\n2. for sequences",
+         "text": "Formatting: ⌘B bold, ⌘K italic, ⌥⌘K link"
+        }
+       ],
+       "id": "984C2354-461A-518E-99C7-03FE2E75890B",
+       "tags": [
+        "Important"
+       ],
+       "text": "3 · Notes"
+      },
+      {
+       "children": [
+        {
+         "id": "FB4B50F4-6A3E-51E5-AD90-5578642678A6",
+         "tags": [
+          "Important"
+         ],
+         "text": "Important – key statement"
+        },
+        {
+         "id": "E09C1C28-5572-545B-9646-8BCAE94BB5D8",
+         "tags": [
+          "Exam"
+         ],
+         "text": "Exam – will be in the exam"
+        },
+        {
+         "id": "30C54E2E-404F-5BE1-A5BA-016C72E924C9",
+         "tags": [
+          "Remember"
+         ],
+         "text": "Remember – formula, mnemonic"
+        },
+        {
+         "id": "B7356E93-15C5-5F6B-932E-5ACA2B43038C",
+         "tags": [
+          "Example"
+         ],
+         "text": "Example – concrete case"
+        },
+        {
+         "id": "30FAA358-7ADA-599E-ADED-CB6498EC2562",
+         "tags": [
+          "Definition"
+         ],
+         "text": "Definition – technical term"
+        },
+        {
+         "id": "63AF330F-DDF2-5A01-9830-6BF61B283989",
+         "tags": [
+          "Question"
+         ],
+         "text": "Question – for self-testing"
+        },
+        {
+         "id": "DDA694F9-B119-5501-B3AA-112F61E8553C",
+         "note": "Before office hours: *View › Highlight › Unclear* – and you see all open questions at once.",
+         "tags": [
+          "Unclear"
+         ],
+         "text": "Unclear – not understood yet"
+        },
+        {
+         "id": "35EC57FF-BA17-5FC3-A896-21DE90A3104E",
+         "note": "Fades out everything without the tag. Before the exam: highlight only **Exam** and review exactly these nodes.",
+         "tags": [
+          "Remember"
+         ],
+         "text": "Highlight: View › Highlight"
+        }
+       ],
+       "id": "58CFC246-0D37-5BF4-9329-7C89AF7E6198",
+       "note": "Tags mark **what role** a node plays in learning. Set them via *Node › Tags* or ⌥⌘1 to ⌥⌘7.",
+       "text": "4 · Tags"
+      },
+      {
+       "children": [
+        {
+         "id": "CB28DB2C-D16C-54E1-AFDF-C354DB3DD5E7",
+         "text": "Mark as task: ⇧⌘T"
+        },
+        {
+         "id": "8C34837E-8DD0-530E-8662-06181CE759B7",
+         "text": "Check off: click the box or ⇧⌘D"
+        },
+        {
+         "children": [
+          {
+           "id": "7BC0B211-64FE-5981-BC81-2E86C367ECBA",
+           "task": "done",
+           "text": "Open the guide"
+          },
+          {
+           "id": "C0E03355-3479-5383-87D2-7CD9FEF5A97B",
+           "task": "done",
+           "text": "Read this branch"
+          },
+          {
+           "id": "2DC83A69-F669-58F4-8DF8-872988A4DD6C",
+           "task": "open",
+           "text": "Check off a task"
+          },
+          {
+           "id": "521FF8B4-C9B6-5644-A692-A74AEC5CD7DB",
+           "task": "open",
+           "text": "Give a node a tag"
+          }
+         ],
+         "id": "F17E4D38-0B30-5885-9D63-BCE8D361B8FA",
+         "note": "The circle shows the progress of all tasks below: empty = open, half = partly done, full = done.",
+         "text": "Try it"
+        },
+        {
+         "id": "0E8613B5-9B0D-52AC-AF16-3CBAA598EC77",
+         "note": "The library collects the open tasks from **all** documents – your study plan for the week. Double-click opens the mind map at the right spot.",
+         "text": "All open tasks: Library › Tasks"
+        },
+        {
+         "id": "6DEC8816-EE25-5095-ABE3-EBAE502CF123",
+         "note": "**Node › Sync Tasks with Reminders** creates a list for this mind map in Apple's Reminders.\n\nYou can then check off tasks in both apps – on your iPhone too. New reminders in the list become tasks in the map. Syncing happens while the mind map is open.",
+         "text": "Sync with Reminders"
+        }
+       ],
+       "id": "13791767-5FB4-5204-A4AD-158F4DF5BC5E",
+       "text": "5 · Tasks"
+      },
+      {
+       "children": [
+        {
+         "id": "17C60FD8-BD2F-50A4-912C-65315F4C31DC",
+         "note": "Main branches = chapters or guiding questions. At most about **7 branches** per level – more is hard to remember. Clockwise order = learning order.",
+         "text": "From rough to detailed"
+        },
+        {
+         "id": "143BA713-1A0E-5F3A-A5B5-B7D686FC6A88",
+         "text": "Keywords instead of sentences"
+        },
+        {
+         "id": "6461D800-13EE-5061-BEC4-465542BD6C14",
+         "note": "This is **retrieval practice**: collapse a branch, say out loud what is in it, then check. It works much better than reading again.\n\nIn the German learning examples the **Selbsttest** branch is collapsed. The answers are in the notes.",
+         "tags": [
+          "Important"
+         ],
+         "text": "Self-test: collapse – recall – expand"
+        },
+        {
+         "id": "B1541245-22B1-53A4-9479-1C8C77233483",
+         "text": "Study plan as tasks"
+        },
+        {
+         "id": "646E6F3F-D9D8-52CE-B4F4-9D56A8A1C01D",
+         "note": "Spaced repetition. Add tasks for it to your study plan.",
+         "text": "Review: after 1 day, 1 week, 1 month"
+        }
+       ],
+       "id": "DC77E95F-24E5-5918-A378-32F4D977D4F4",
+       "tags": [
+        "Remember"
+       ],
+       "text": "6 · Learning Efficiently"
+      },
+      {
+       "children": [
+        {
+         "id": "0965E5F5-20A7-56E3-B42D-B8D0104029BA",
+         "note": "Searches nodes and notes. ⌘G jumps to the next match.",
+         "text": "Find & Replace: ⌘F"
+        },
+        {
+         "id": "B2611349-A7A2-562C-8734-4B29971512B5",
+         "note": "PDF for printing, Markdown or OPML for other apps.",
+         "text": "Export: ⇧⌘E"
+        },
+        {
+         "id": "5884D1CD-73F8-5044-826F-926B2316D806",
+         "text": "Import: ⌘I"
+        },
+        {
+         "id": "06A91AF3-C68D-5FE2-B562-D6C224E9C9DA",
+         "note": "Shrunk to one page or spread legibly over several A4 pages – just as the map looks on screen.",
+         "text": "Print: ⌘P"
+        },
+        {
+         "id": "8ED912CD-4FA9-5657-AA75-A07B3E139632",
+         "text": "Library: ⇧⌘L"
+        },
+        {
+         "id": "047FBF20-0640-51C8-A160-2834E7E6B109",
+         "note": "Finds your mind maps even by a word that appears only in a node or a note.",
+         "text": "Spotlight: ⌘ Space"
+        },
+        {
+         "id": "CA356AAB-9A92-5298-9BB5-0FDBC64E3D6E",
+         "note": "In the Shortcuts app under “MindMaps”: New Mind Map, Add Node, Find Mind Maps, Open Mind Map and Export Mind Map.\n\nExample: “Export Mind Map” (format PDF, nothing selected = last used) followed by “Save File”.",
+         "text": "Shortcuts and Siri"
+        }
+       ],
+       "id": "6E333B9B-6162-59B0-87A9-EE1F864EE7A5",
+       "text": "7 · Search, Export, Library"
+      },
+      {
+       "children": [
+        {
+         "id": "F789FE72-A046-565E-AAB0-8E4550520A61",
+         "note": "Or right-click › *Connect to …* and then click the target node.\nMove the curve with the handle in the middle; double-click it to change the label.",
+         "text": "Cross-connection: drag a node onto another with ⌥"
+        },
+        {
+         "id": "DF80ED77-2824-5DFB-BFC3-3F75A3994ACD",
+         "note": "Everything except the selected branch fades – good for reviewing a single chapter.",
+         "text": "Focus on a branch: ⌥⌘F"
+        },
+        {
+         "id": "1390693A-A9DB-53D7-BD18-8ED5D778BECD",
+         "note": "Full screen, then → branch by branch. **N** shows the notes, **Esc** ends.",
+         "text": "Presentation: ⌥⌘P"
+        },
+        {
+         "id": "91E9CD29-8E10-5427-B7FE-9FDF504C8BC8",
+         "link": "https://www.ph-freiburg.de",
+         "note": "Web addresses or links to nodes in other mind maps (right-click › *Copy Link to This Node*, then paste into the other node).",
+         "text": "Link: ⌥⌘K"
+        },
+        {
+         "id": "307D52D2-5BDC-5198-98F7-95A7F58D9DBF",
+         "note": "From the Finder or the Photos app. Resize it with the handle at the bottom right of the image or in the sidebar.",
+         "text": "Image: drag onto the node"
+        },
+        {
+         "formula": "F = G \\frac{m_1 m_2}{r^2}",
+         "id": "53ED3E22-5685-53A7-AA56-2FBDCDA5AFD2",
+         "note": "LaTeX notation: **^** superscript, **_** subscript, **\\frac{a}{b}** fraction, **\\sqrt{x}** root, **\\alpha** Greek letters, **\\cdot** multiplication dot.",
+         "text": "Formula: ⌥⌘E"
+        },
+        {
+         "id": "F8A7C372-4944-5CE2-B7A6-5AF293D6FEBB",
+         "text": "Emoji: ⌃⌘ Space 🙂"
+        },
+        {
+         "id": "8E257A39-816B-563F-B5C4-1379F6EE0873",
+         "text": "Right-click: all actions for a node"
+        }
+       ],
+       "id": "E048DCEA-26DC-5322-B585-EA098DF17631",
+       "text": "8 · Connect, Present, Media"
+      }
+     ],
+     "id": "21587313-BD0B-597C-BA89-8EC6D42C66C5",
+     "note": "**Welcome!** This mind map is an example itself. Read it branch by branch – start at the top right, then go clockwise.\n\n**Basic rule:** A node holds just a keyword. Everything you want to explain belongs in the **note** (the small page icon on the node).\n\nTry anything you like here. The file is yours – delete, change, check off.",
+     "text": "Learning with MindMaps"
+    },
+    "themeID": "blau"
+   },
+   "name": "Guide – How MindMaps Works"
+  }
+ ],
+ "folder": "Guide"
+}
